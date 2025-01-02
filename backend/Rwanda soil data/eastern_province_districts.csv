@@ -1,0 +1,96 @@
+District,Sector,Latitude,Longitude,Soil_Texture
+Bugesera,Gashora,-2.1733,30.25,Sandy clay
+Bugesera,Juru,-2.1347,30.2225,Clay loam
+Bugesera,Kamabuye,-2.1153,30.25,Sandy loam
+Bugesera,Mareba,-2.1347,30.2775,Clay
+Bugesera,Mayange,-2.1541,30.2225,Sandy clay
+Bugesera,Musenyi,-2.1153,30.2775,Clay loam
+Bugesera,Mwogo,-2.1733,30.2225,Sandy loam
+Bugesera,Ngeruka,-2.1541,30.2775,Clay
+Bugesera,Ntarama,-2.1153,30.2225,Sandy clay
+Bugesera,Nyamata,-2.1347,30.25,Clay loam
+Bugesera,Nyarugenge,-2.1541,30.25,Sandy loam
+Bugesera,Rilima,-2.1733,30.2775,Clay
+Bugesera,Ruhuha,-2.1733,30.25,Sandy clay
+Bugesera,Sake,-2.1347,30.2225,Clay loam
+Bugesera,Shyara,-2.1153,30.25,Sandy loam
+Gatsibo,Gasange,-1.7117,30.45,Clay loam
+Gatsibo,Gatsibo,-1.7117,30.4775,Sandy clay
+Gatsibo,Gitoki,-1.6925,30.45,Clay
+Gatsibo,Kabarore,-1.6925,30.4775,Sandy loam
+Gatsibo,Kageyo,-1.6731,30.45,Clay loam
+Gatsibo,Kiramuruzi,-1.6731,30.4775,Sandy clay
+Gatsibo,Kiziguro,-1.7117,30.505,Clay
+Gatsibo,Muhura,-1.6925,30.505,Sandy loam
+Gatsibo,Murambi,-1.6731,30.505,Clay loam
+Gatsibo,Ngarama,-1.7311,30.45,Sandy clay
+Gatsibo,Nyagihanga,-1.7311,30.4775,Clay
+Gatsibo,Remera,-1.7311,30.505,Sandy loam
+Gatsibo,Rugarama,-1.7506,30.45,Clay loam
+Gatsibo,Rwimbogo,-1.7506,30.4775,Sandy clay
+Kayonza,Gahini,-1.8561,30.4775,Clay loam
+Kayonza,Kabare,-1.8561,30.505,Sandy clay
+Kayonza,Kabarondo,-1.8367,30.4775,Clay
+Kayonza,Mukarange,-1.8367,30.505,Sandy loam
+Kayonza,Murama,-1.8172,30.4775,Clay loam
+Kayonza,Murundi,-1.8172,30.505,Sandy clay
+Kayonza,Mwiri,-1.8561,30.5325,Clay
+Kayonza,Ndego,-1.8367,30.5325,Sandy loam
+Kayonza,Nyamirama,-1.8172,30.5325,Clay loam
+Kayonza,Rukara,-1.8756,30.4775,Sandy clay
+Kayonza,Ruramira,-1.8756,30.505,Clay
+Kayonza,Rwinkwavu,-1.8756,30.5325,Sandy loam
+Kirehe,Gahara,-2.2506,30.65,Clay loam
+Kirehe,Gatore,-2.2506,30.6775,Sandy clay
+Kirehe,Kigarama,-2.2311,30.65,Clay
+Kirehe,Kigina,-2.2311,30.6775,Sandy loam
+Kirehe,Kirehe,-2.2117,30.65,Clay loam
+Kirehe,Mahama,-2.2117,30.6775,Sandy clay
+Kirehe,Mpanga,-2.2506,30.705,Clay
+Kirehe,Musaza,-2.2311,30.705,Sandy loam
+Kirehe,Mushikiri,-2.2117,30.705,Clay loam
+Kirehe,Nasho,-2.27,30.65,Sandy clay
+Kirehe,Nyamugali,-2.27,30.6775,Clay
+Kirehe,Nyarubuye,-2.27,30.705,Sandy loam
+Ngoma,Gashanda,-2.1733,30.45,Clay loam
+Ngoma,Jarama,-2.1733,30.4775,Sandy clay
+Ngoma,Karembo,-2.1539,30.45,Clay
+Ngoma,Kazo,-2.1539,30.4775,Sandy loam
+Ngoma,Kibungo,-2.1344,30.45,Clay loam
+Ngoma,Mugesera,-2.1344,30.4775,Sandy clay
+Ngoma,Murama,-2.1733,30.505,Clay
+Ngoma,Mutenderi,-2.1539,30.505,Sandy loam
+Ngoma,Remera,-2.1344,30.505,Clay loam
+Ngoma,Rukira,-2.1928,30.45,Sandy clay
+Ngoma,Rukumberi,-2.1928,30.4775,Clay
+Ngoma,Rurenge,-2.1928,30.505,Sandy loam
+Ngoma,Sake,-2.2122,30.45,Clay loam
+Ngoma,Zaza,-2.2122,30.4775,Sandy clay
+Nyagatare,Gatunda,-1.4478,30.45,Clay loam
+Nyagatare,Karama,-1.4478,30.4775,Sandy clay
+Nyagatare,Katabagemu,-1.4283,30.45,Clay
+Nyagatare,Karangazi,-1.4283,30.4775,Sandy loam
+Nyagatare,Kiyombe,-1.4089,30.45,Clay loam
+Nyagatare,Matimba,-1.4089,30.4775,Sandy clay
+Nyagatare,Mimuri,-1.4478,30.505,Clay
+Nyagatare,Mukama,-1.4283,30.505,Sandy loam
+Nyagatare,Musheri,-1.4089,30.505,Clay loam
+Nyagatare,Nyagatare,-1.4672,30.45,Sandy clay
+Nyagatare,Rukomo,-1.4672,30.4775,Clay
+Nyagatare,Rwempasha,-1.4672,30.505,Sandy loam
+Nyagatare,Rwimiyaga,-1.4867,30.45,Clay loam
+Nyagatare,Tabagwe,-1.4867,30.4775,Sandy clay
+Rwamagana,Fumbwe,-1.9506,30.35,Clay loam
+Rwamagana,Gahengeri,-1.9506,30.3775,Sandy clay
+Rwamagana,Gishali,-1.9311,30.35,Clay
+Rwamagana,Karenge,-1.9311,30.3775,Sandy loam
+Rwamagana,Kigabiro,-1.9117,30.35,Clay loam
+Rwamagana,Muhazi,-1.9117,30.3775,Sandy clay
+Rwamagana,Munyaga,-1.9506,30.405,Clay
+Rwamagana,Munyiginya,-1.9311,30.405,Sandy loam
+Rwamagana,Mwulire,-1.9117,30.405,Clay loam
+Rwamagana,Nyakariro,-1.97,30.35,Sandy clay
+Rwamagana,Nzige,-1.97,30.3775,Clay
+Rwamagana,Rubona,-1.97,30.405,Sandy loam
+Rwamagana,Rukara,-1.9894,30.35,Clay loam
+Rwamagana,Rweru,-1.9894,30.3775,Sandy clay

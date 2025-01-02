@@ -1,0 +1,416 @@
+District,Sector,Latitude,Longitude,Soil_Texture
+Huye,Gishamvu,-2.6284,29.7453,Clay loam
+Huye,Karama,-2.5942,29.7897,Sandy clay
+Huye,Maraba,-2.5523,29.7442,Clay
+Huye,Mukura,-2.5831,29.6789,Sandy loam
+Huye,Ngoma,-2.6173,29.7564,Clay loam
+Huye,Rusatira,-2.5789,29.7654,Sandy loam
+Huye,Rwaniro,-2.5934,29.7788,Clay loam
+Huye,Simbi,-2.5677,29.7345,Clay
+Huye,Kinazi,-2.5845,29.7567,Sandy clay
+Huye,Tumba,-2.6012,29.7432,Loam
+Huye,Mbazi,-2.5934,29.7654,Clay loam
+Huye,Ruhashya,-2.5878,29.7789,Sandy loam
+Huye,Huye,-2.5967,29.7567,Clay
+Huye,Kigoma,-2.5845,29.7432,Sandy clay
+Nyanza,Busasamana,-2.3519,29.7467,Clay
+Nyanza,Cyabakamyi,-2.3228,29.7892,Sandy clay
+Nyanza,Kigoma,-2.3744,29.7564,Loam
+Nyanza,Mukingo,-2.3853,29.7231,Clay loam
+Nyanza,Ntyazo,-2.3567,29.7345,Sandy loam
+Nyanza,Nyagisozi,-2.3789,29.7567,Clay
+Nyanza,Rwabicuma,-2.3456,29.7678,Sandy clay
+Nyanza,Kibirizi,-2.3678,29.7789,Loam
+Nyanza,Muyira,-2.3567,29.7567,Clay loam
+Nyanza,Nyanza,-2.3789,29.7678,Sandy loam
+Gisagara,Gikonko,-2.4672,29.8564,Clay
+Gisagara,Kibirizi,-2.4233,29.8789,Sandy loam
+Gisagara,Mamba,-2.4458,29.8453,Clay loam
+Gisagara,Muganza,-2.4567,29.8678,Sandy clay
+Gisagara,Mukindo,-2.4345,29.8567,Loam
+Gisagara,Musha,-2.4789,29.8345,Clay loam
+Gisagara,Ndora,-2.4234,29.8567,Sandy loam
+Gisagara,Nyanza,-2.4567,29.8789,Clay
+Gisagara,Save,-2.4789,29.8567,Sandy clay
+Gisagara,Kansi,-2.4567,29.8345,Loam
+Gisagara,Kigembe,-2.4789,29.8678,Clay loam
+Gisagara,Gishubi,-2.4567,29.8789,Sandy loam
+Gisagara,Mugombwa,-2.4345,29.8567,Clay
+Nyaruguru,Busanze,-2.7234,29.6567,Sandy clay
+Nyaruguru,Cyahinda,-2.7456,29.6678,Clay loam
+Nyaruguru,Kibeho,-2.7567,29.6789,Loam
+Nyaruguru,Mata,-2.7678,29.6567,Clay
+Nyaruguru,Muganza,-2.7789,29.6678,Sandy loam
+Nyaruguru,Munini,-2.7234,29.6789,Clay loam
+Nyaruguru,Ngera,-2.7456,29.6567,Sandy clay
+Nyaruguru,Ngoma,-2.7567,29.6678,Loam
+Nyaruguru,Nyabimata,-2.7678,29.6789,Clay
+Nyaruguru,Nyagisozi,-2.7789,29.6567,Sandy loam
+Nyaruguru,Ruheru,-2.7234,29.6678,Clay loam
+Nyaruguru,Ruramba,-2.7456,29.6789,Sandy clay
+Nyaruguru,Rusenge,-2.7567,29.6567,Loam
+Nyaruguru,Kivu,-2.7678,29.6678,Clay
+Nyamagabe,Buruhukiro,-2.4234,29.5567,Sandy loam
+Nyamagabe,Cyanika,-2.4456,29.5678,Clay
+Nyamagabe,Gatare,-2.4567,29.5789,Sandy clay
+Nyamagabe,Kaduha,-2.4678,29.5567,Clay loam
+Nyamagabe,Kamegeri,-2.4789,29.5678,Loam
+Nyamagabe,Kibirizi,-2.4234,29.5789,Sandy clay
+Nyamagabe,Kibumbwe,-2.4456,29.5567,Clay
+Nyamagabe,Kitabi,-2.4567,29.5678,Sandy loam
+Nyamagabe,Mbazi,-2.4678,29.5789,Clay loam
+Nyamagabe,Mugano,-2.4789,29.5567,Loam
+Nyamagabe,Musange,-2.4234,29.5678,Sandy clay
+Nyamagabe,Mushubi,-2.4456,29.5789,Clay
+Nyamagabe,Nkomane,-2.4567,29.5567,Sandy loam
+Nyamagabe,Tare,-2.4678,29.5678,Clay loam
+Nyamagabe,Gasaka,-2.4789,29.5789,Loam
+Nyamagabe,Uwinkingi,-2.4234,29.5567,Sandy clay
+Nyamagabe,Rugano,-2.4456,29.5678,Clay
+Ruhango,Bweramana,-2.2234,29.7567,Clay loam
+Ruhango,Byimana,-2.2456,29.7678,Sandy clay
+Ruhango,Kabagari,-2.2567,29.7789,Loam
+Ruhango,Kinazi,-2.2678,29.7567,Clay
+Ruhango,Kinihira,-2.2789,29.7678,Sandy loam
+Ruhango,Mbuye,-2.2234,29.7789,Clay loam
+Ruhango,Mwendo,-2.2456,29.7567,Sandy clay
+Ruhango,Ntongwe,-2.2567,29.7678,Loam
+Ruhango,Ruhango,-2.2678,29.7789,Clay
+Ruhango,Byimana,-2.2789,29.7567,Sandy loam
+Muhanga,Cyeza,-2.1234,29.7567,Clay
+Muhanga,Kabacuzi,-2.1456,29.7678,Sandy loam
+Muhanga,Kibangu,-2.1567,29.7789,Clay loam
+Muhanga,Kiyumba,-2.1678,29.7567,Sandy clay
+Muhanga,Muhanga,-2.1789,29.7678,Loam
+Muhanga,Mushishiro,-2.1234,29.7789,Clay
+Muhanga,Nyabinoni,-2.1456,29.7567,Sandy loam
+Muhanga,Nyamabuye,-2.1567,29.7678,Clay loam
+Muhanga,Nyarusange,-2.1678,29.7789,Sandy clay
+Muhanga,Rongi,-2.1789,29.7567,Loam
+Muhanga,Rugendabari,-2.1234,29.7678,Clay
+Muhanga,Shyogwe,-2.1456,29.7789,Sandy loam
+Kamonyi,Gacurabwenge,-2.0234,29.7567,Clay loam
+Kamonyi,Karama,-2.0456,29.7678,Sandy clay
+Kamonyi,Kayenzi,-2.0567,29.7789,Loam
+Kamonyi,Kayumbu,-2.0678,29.7567,Clay
+Kamonyi,Mugina,-2.0789,29.7678,Sandy loam
+Kamonyi,Musambira,-2.0234,29.7789,Clay loam
+Kamonyi,Ngamba,-2.0456,29.7567,Sandy clay
+Kamonyi,Nyamiyaga,-2.0567,29.7678,Loam
+Kamonyi,Nyarubaka,-2.0678,29.7789,Clay
+Kamonyi,Rukoma,-2.0789,29.7567,Sandy loam
+Kamonyi,Runda,-2.0234,29.7678,Clay loam
+Kamonyi,Rugarika,-2.0456,29.7789,Sandy clay
+Karongi,Bwishyura,-2.0789,29.3453,Sandy clay
+Karongi,Gishyita,-2.1234,29.3789,Clay loam
+Karongi,Murambi,-2.0567,29.3231,Sandy loam
+Karongi,Rubengera,-2.0892,29.3564,Clay
+Karongi,Gashari,-2.0678,29.3456,Sandy clay
+Karongi,Gitesi,-2.0789,29.3567,Loam
+Karongi,Mubuga,-2.0567,29.3678,Clay loam
+Karongi,Murundi,-2.0789,29.3789,Sandy loam
+Karongi,Mutuntu,-2.0567,29.3567,Clay
+Karongi,Rwankuba,-2.0789,29.3678,Sandy clay
+Karongi,Rugabano,-2.0567,29.3789,Loam
+Karongi,Ruganda,-2.0789,29.3567,Clay loam
+Karongi,Twumba,-2.0567,29.3678,Sandy loam
+Rubavu,Gisenyi,-1.7023,29.2564,Sandy loam
+Rubavu,Nyamyumba,-1.6789,29.2789,Clay
+Rubavu,Rugerero,-1.7231,29.2453,Sandy clay
+Rubavu,Bugeshi,-1.6934,29.2567,Clay loam
+Rubavu,Busasamana,-1.7123,29.2678,Loam
+Rubavu,Cyanzarwe,-1.6845,29.2789,Sandy clay
+Rubavu,Kanama,-1.7234,29.2567,Clay
+Rubavu,Kanzenze,-1.6956,29.2678,Sandy loam
+Rubavu,Mudende,-1.7123,29.2789,Clay loam
+Rubavu,Nyakiriba,-1.6845,29.2567,Loam
+Rubavu,Nyundo,-1.7234,29.2678,Sandy clay
+Rubavu,Rubavu,-1.6956,29.2789,Clay
+Rusizi,Bugarama,-2.6789,29.0453,Clay loam
+Rusizi,Gihundwe,-2.6234,29.0789,Sandy clay
+Rusizi,Kamembe,-2.6453,29.0231,Loam
+Rusizi,Butare,-2.6567,29.0567,Clay
+Rusizi,Bweyeye,-2.6789,29.0678,Sandy loam
+Rusizi,Gikundamvura,-2.6234,29.0789,Clay loam
+Rusizi,Gashonga,-2.6453,29.0567,Sandy clay
+Rusizi,Gitambi,-2.6567,29.0678,Loam
+Rusizi,Mururu,-2.6789,29.0789,Clay
+Rusizi,Nkanka,-2.6234,29.0567,Sandy loam
+Rusizi,Nkombo,-2.6453,29.0678,Clay loam
+Rusizi,Nkungu,-2.6567,29.0789,Sandy clay
+Rusizi,Nyakabuye,-2.6789,29.0567,Loam
+Rusizi,Nyakarenzo,-2.6234,29.0678,Clay
+Rusizi,Nzahaha,-2.6453,29.0789,Sandy loam
+Rusizi,Rwimbogo,-2.6567,29.0567,Clay loam
+Rusizi,Muganza,-2.6789,29.0678,Sandy clay
+Nyamasheke,Kagano,-2.3234,29.1567,Clay loam
+Nyamasheke,Kanjongo,-2.3456,29.1678,Sandy clay
+Nyamasheke,Karambi,-2.3567,29.1789,Loam
+Nyamasheke,Karengera,-2.3678,29.1567,Clay
+Nyamasheke,Kilimbi,-2.3789,29.1678,Sandy loam
+Nyamasheke,Macuba,-2.3234,29.1789,Clay loam
+Nyamasheke,Mahembe,-2.3456,29.1567,Sandy clay
+Nyamasheke,Nyabitekeri,-2.3567,29.1678,Loam
+Nyamasheke,Rangiro,-2.3678,29.1789,Clay
+Nyamasheke,Ruharambuga,-2.3789,29.1567,Sandy loam
+Nyamasheke,Shangi,-2.3234,29.1678,Clay loam
+Nyamasheke,Bushekeri,-2.3456,29.1789,Sandy clay
+Nyamasheke,Bushenge,-2.3567,29.1567,Loam
+Nyamasheke,Cyato,-2.3678,29.1678,Clay
+Nyabihu,Bigogwe,-1.6234,29.5567,Sandy loam
+Nyabihu,Jenda,-1.6456,29.5678,Clay
+Nyabihu,Jomba,-1.6567,29.5789,Sandy clay
+Nyabihu,Kabatwa,-1.6678,29.5567,Clay loam
+Nyabihu,Karago,-1.6789,29.5678,Loam
+Nyabihu,Kintobo,-1.6234,29.5789,Sandy clay
+Nyabihu,Mukamira,-1.6456,29.5567,Clay
+Nyabihu,Muringa,-1.6567,29.5678,Sandy loam
+Nyabihu,Rambura,-1.6678,29.5789,Clay loam
+Nyabihu,Rugera,-1.6789,29.5567,Loam
+Nyabihu,Rurembo,-1.6234,29.5678,Sandy clay
+Nyabihu,Shyira,-1.6456,29.5789,Clay
+Ngororero,Bwira,-1.8234,29.6567,Clay loam
+Ngororero,Gatumba,-1.8456,29.6678,Sandy clay
+Ngororero,Hindiro,-1.8567,29.6789,Loam
+Ngororero,Kabaya,-1.8678,29.6567,Clay
+Ngororero,Kageyo,-1.8789,29.6678,Sandy loam
+Ngororero,Kavumu,-1.8234,29.6789,Clay loam
+Ngororero,Matyazo,-1.8456,29.6567,Sandy clay
+Ngororero,Muhanda,-1.8567,29.6678,Loam
+Ngororero,Muhororo,-1.8678,29.6789,Clay
+Ngororero,Ndaro,-1.8789,29.6567,Sandy loam
+Ngororero,Ngororero,-1.8234,29.6678,Clay loam
+Ngororero,Nyange,-1.8456,29.6789,Sandy clay
+Ngororero,Sovu,-1.8567,29.6567,Loam
+Rutsiro,Boneza,-1.9234,29.4567,Clay
+Rutsiro,Gihango,-1.9456,29.4678,Sandy loam
+Rutsiro,Kigeyo,-1.9567,29.4789,Clay loam
+Rutsiro,Kivumu,-1.9678,29.4567,Sandy clay
+Rutsiro,Manihira,-1.9789,29.4678,Loam
+Rutsiro,Mukura,-1.9234,29.4789,Clay
+Rutsiro,Murunda,-1.9456,29.4567,Sandy loam
+Rutsiro,Musasa,-1.9567,29.4678,Clay loam
+Rutsiro,Mushonyi,-1.9678,29.4789,Sandy clay
+Rutsiro,Mushubati,-1.9789,29.4567,Loam
+Rutsiro,Nyabirasi,-1.9234,29.4678,Clay
+Rutsiro,Ruhango,-1.9456,29.4789,Sandy loam
+Rutsiro,Rusebeya,-1.9567,29.4567,Clay loam
+Burera,Bungwe,-1.4478,29.85,Clay loam
+Burera,Butaro,-1.4478,29.8775,Sandy clay
+Burera,Cyanika,-1.4283,29.85,Clay
+Burera,Cyeru,-1.4283,29.8775,Sandy loam
+Burera,Gahunga,-1.4089,29.85,Clay loam
+Burera,Gatebe,-1.4089,29.8775,Sandy clay
+Burera,Gitovu,-1.4478,29.905,Clay
+Burera,Kagogo,-1.4283,29.905,Sandy loam
+Burera,Kinoni,-1.4089,29.905,Clay loam
+Burera,Kinyababa,-1.4672,29.85,Sandy clay
+Burera,Kivuye,-1.4672,29.8775,Clay
+Burera,Nemba,-1.4672,29.905,Sandy loam
+Burera,Rugarama,-1.4867,29.85,Clay loam
+Burera,Rugendabari,-1.4867,29.8775,Sandy clay
+Burera,Ruhunde,-1.4867,29.905,Clay
+Burera,Rusarabuye,-1.5061,29.85,Sandy loam
+Burera,Rwerere,-1.5061,29.8775,Clay loam
+Gakenke,Coko,-1.7117,29.85,Sandy clay
+Gakenke,Cyabingo,-1.7117,29.8775,Clay loam
+Gakenke,Gakenke,-1.6925,29.85,Clay
+Gakenke,Gashenyi,-1.6925,29.8775,Sandy loam
+Gakenke,Janja,-1.6731,29.85,Clay loam
+Gakenke,Kamubuga,-1.6731,29.8775,Sandy clay
+Gakenke,Karambo,-1.7117,29.905,Clay
+Gakenke,Kivuruga,-1.6925,29.905,Sandy loam
+Gakenke,Mataba,-1.6731,29.905,Clay loam
+Gakenke,Minazi,-1.7311,29.85,Sandy clay
+Gakenke,Mugunga,-1.7311,29.8775,Clay
+Gakenke,Muhondo,-1.6925,29.8925,Clay
+Gakenke,Muyongwe,-1.7506,29.85,Clay loam
+Gakenke,Muzo,-1.7506,29.8775,Sandy clay
+Gakenke,Nemba,-1.7506,29.905,Clay
+Gakenke,Ruli,-1.77,29.85,Sandy loam
+Gakenke,Rusasa,-1.77,29.8775,Clay loam
+Gakenke,Rushashi,-1.77,29.905,Sandy clay
+Gicumbi,Bukure,-1.5583,30.1,Clay loam
+Gicumbi,Bwisige,-1.5583,30.1275,Sandy clay
+Gicumbi,Byumba,-1.5389,30.1,Clay
+Gicumbi,Cyumba,-1.5389,30.1275,Sandy loam
+Gicumbi,Giti,-1.5194,30.1,Clay loam
+Gicumbi,Kaniga,-1.5194,30.1275,Sandy clay
+Gicumbi,Manyagiro,-1.5583,30.155,Clay
+Gicumbi,Miyove,-1.5389,30.155,Sandy loam
+Gicumbi,Mugambi,-1.5194,30.155,Clay loam
+Gicumbi,Mukarange,-1.5778,30.1,Sandy clay
+Gicumbi,Muko,-1.5778,30.1275,Clay
+Gicumbi,Mutete,-1.5778,30.155,Sandy loam
+Gicumbi,Nyamiyaga,-1.5972,30.1,Clay loam
+Gicumbi,Nyankenke,-1.5972,30.1275,Sandy clay
+Gicumbi,Rubaya,-1.5972,30.155,Clay
+Gicumbi,Rukomo,-1.6167,30.1,Sandy loam
+Gicumbi,Rushaki,-1.6167,30.1275,Clay loam
+Gicumbi,Rutare,-1.6167,30.155,Sandy clay
+Gicumbi,Ruvune,-1.6361,30.1,Clay
+Gicumbi,Rwamiko,-1.6361,30.1275,Sandy loam
+Gicumbi,Shangasha,-1.6361,30.155,Clay loam
+Musanze,Busogo,-1.5583,29.5561,Clay loam
+Musanze,Cyuve,-1.5389,29.5561,Sandy clay
+Musanze,Gacaca,-1.5583,29.5836,Clay
+Musanze,Gashaki,-1.5389,29.5836,Sandy loam
+Musanze,Gataraga,-1.5194,29.5561,Clay loam
+Musanze,Kimonyi,-1.5194,29.5836,Sandy clay
+Musanze,Kinigi,-1.5583,29.6111,Clay
+Musanze,Muhoza,-1.5389,29.6111,Sandy loam
+Musanze,Muko,-1.5194,29.6111,Clay loam
+Musanze,Musanze,-1.5778,29.5561,Sandy clay
+Musanze,Nkotsi,-1.5778,29.5836,Clay
+Musanze,Nyange,-1.5778,29.6111,Sandy loam
+Musanze,Remera,-1.5972,29.5561,Clay loam
+Musanze,Rwaza,-1.5972,29.5836,Sandy clay
+Musanze,Shingiro,-1.5972,29.6111,Clay
+Rulindo,Base,-1.7311,29.9931,Clay loam
+Rulindo,Burega,-1.7311,30.0206,Sandy clay
+Rulindo,Bushoki,-1.7117,29.9931,Clay
+Rulindo,Buyoga,-1.7117,30.0206,Sandy loam
+Rulindo,Cyinzuzi,-1.6925,29.9931,Clay loam
+Rulindo,Cyungo,-1.6925,30.0206,Sandy clay
+Rulindo,Kinihira,-1.7311,30.0481,Clay
+Rulindo,Kisaro,-1.7117,30.0481,Sandy loam
+Rulindo,Kigabiro,-1.78,30.05,Sandy loam
+Rulindo,Masoro,-1.6925,30.0481,Clay loam
+Rulindo,Mbogo,-1.7506,29.9931,Sandy clay
+Rulindo,Murambi,-1.7506,30.0206,Clay
+Rulindo,Ngoma,-1.7506,30.0481,Sandy loam
+Rulindo,Ntarabana,-1.77,29.9931,Clay loam
+Rulindo,Rukozo,-1.77,30.0206,Sandy clay
+Rulindo,Rusiga,-1.77,30.0481,Clay
+Rulindo,Shyorongi,-1.7894,29.9931,Sandy loam
+Rulindo,Tumba,-1.7894,30.0206,Clay loam
+Bugesera,Gashora,-2.1733,30.25,Sandy clay
+Bugesera,Juru,-2.1347,30.2225,Clay loam
+Bugesera,Kamabuye,-2.1153,30.25,Sandy loam
+Bugesera,Mareba,-2.1347,30.2775,Clay
+Bugesera,Mayange,-2.1541,30.2225,Sandy clay
+Bugesera,Musenyi,-2.1153,30.2775,Clay loam
+Bugesera,Mwogo,-2.1733,30.2225,Sandy loam
+Bugesera,Ngeruka,-2.1541,30.2775,Clay
+Bugesera,Ntarama,-2.1153,30.2225,Sandy clay
+Bugesera,Nyamata,-2.1347,30.25,Clay loam
+Bugesera,Nyarugenge,-2.1541,30.25,Sandy loam
+Bugesera,Rilima,-2.1733,30.2775,Clay
+Bugesera,Ruhuha,-2.1733,30.25,Sandy clay
+Bugesera,Sake,-2.1347,30.2225,Clay loam
+Bugesera,Shyara,-2.1153,30.25,Sandy loam
+Gatsibo,Gasange,-1.7117,30.45,Clay loam
+Gatsibo,Gatsibo,-1.7117,30.4775,Sandy clay
+Gatsibo,Gitoki,-1.6925,30.45,Clay
+Gatsibo,Kabarore,-1.6925,30.4775,Sandy loam
+Gatsibo,Kageyo,-1.6731,30.45,Clay loam
+Gatsibo,Kiramuruzi,-1.6731,30.4775,Sandy clay
+Gatsibo,Kiziguro,-1.7117,30.505,Clay
+Gatsibo,Muhura,-1.6925,30.505,Sandy loam
+Gatsibo,Murambi,-1.6731,30.505,Clay loam
+Gatsibo,Ngarama,-1.7311,30.45,Sandy clay
+Gatsibo,Nyagihanga,-1.7311,30.4775,Clay
+Gatsibo,Remera,-1.7311,30.505,Sandy loam
+Gatsibo,Rugarama,-1.7506,30.45,Clay loam
+Gatsibo,Rwimbogo,-1.7506,30.4775,Sandy clay
+Kayonza,Gahini,-1.8561,30.4775,Clay loam
+Kayonza,Kabare,-1.8561,30.505,Sandy clay
+Kayonza,Kabarondo,-1.8367,30.4775,Clay
+Kayonza,Mukarange,-1.8367,30.505,Sandy loam
+Kayonza,Murama,-1.8172,30.4775,Clay loam
+Kayonza,Murundi,-1.8172,30.505,Sandy clay
+Kayonza,Mwiri,-1.8561,30.5325,Clay
+Kayonza,Ndego,-1.8367,30.5325,Sandy loam
+Kayonza,Nyamirama,-1.8172,30.5325,Clay loam
+Kayonza,Rukara,-1.8756,30.4775,Sandy clay
+Kayonza,Ruramira,-1.8756,30.505,Clay
+Kayonza,Rwinkwavu,-1.8756,30.5325,Sandy loam
+Kirehe,Gahara,-2.2506,30.65,Clay loam
+Kirehe,Gatore,-2.2506,30.6775,Sandy clay
+Kirehe,Kigarama,-2.2311,30.65,Clay
+Kirehe,Kigina,-2.2311,30.6775,Sandy loam
+Kirehe,Kirehe,-2.2117,30.65,Clay loam
+Kirehe,Mahama,-2.2117,30.6775,Sandy clay
+Kirehe,Mpanga,-2.2506,30.705,Clay
+Kirehe,Musaza,-2.2311,30.705,Sandy loam
+Kirehe,Mushikiri,-2.2117,30.705,Clay loam
+Kirehe,Nasho,-2.27,30.65,Sandy clay
+Kirehe,Nyamugali,-2.27,30.6775,Clay
+Kirehe,Nyarubuye,-2.27,30.705,Sandy loam
+Ngoma,Gashanda,-2.1733,30.45,Clay loam
+Ngoma,Jarama,-2.1733,30.4775,Sandy clay
+Ngoma,Karembo,-2.1539,30.45,Clay
+Ngoma,Kazo,-2.1539,30.4775,Sandy loam
+Ngoma,Kibungo,-2.1344,30.45,Clay loam
+Ngoma,Mugesera,-2.1344,30.4775,Sandy clay
+Ngoma,Murama,-2.1733,30.505,Clay
+Ngoma,Mutenderi,-2.1539,30.505,Sandy loam
+Ngoma,Remera,-2.1344,30.505,Clay loam
+Ngoma,Rukira,-2.1928,30.45,Sandy clay
+Ngoma,Rukumberi,-2.1928,30.4775,Clay
+Ngoma,Rurenge,-2.1928,30.505,Sandy loam
+Ngoma,Sake,-2.2122,30.45,Clay loam
+Ngoma,Zaza,-2.2122,30.4775,Sandy clay
+Nyagatare,Gatunda,-1.4478,30.45,Clay loam
+Nyagatare,Karama,-1.4478,30.4775,Sandy clay
+Nyagatare,Katabagemu,-1.4283,30.45,Clay
+Nyagatare,Karangazi,-1.4283,30.4775,Sandy loam
+Nyagatare,Kiyombe,-1.4089,30.45,Clay loam
+Nyagatare,Matimba,-1.4089,30.4775,Sandy clay
+Nyagatare,Mimuri,-1.4478,30.505,Clay
+Nyagatare,Mukama,-1.4283,30.505,Sandy loam
+Nyagatare,Musheri,-1.4089,30.505,Clay loam
+Nyagatare,Nyagatare,-1.4672,30.45,Sandy clay
+Nyagatare,Rukomo,-1.4672,30.4775,Clay
+Nyagatare,Rwempasha,-1.4672,30.505,Sandy loam
+Nyagatare,Rwimiyaga,-1.4867,30.45,Clay loam
+Nyagatare,Tabagwe,-1.4867,30.4775,Sandy clay
+Rwamagana,Fumbwe,-1.9506,30.35,Clay loam
+Rwamagana,Gahengeri,-1.9506,30.3775,Sandy clay
+Rwamagana,Gishali,-1.9311,30.35,Clay
+Rwamagana,Karenge,-1.9311,30.3775,Sandy loam
+Rwamagana,Kigabiro,-1.9117,30.35,Clay loam
+Rwamagana,Muhazi,-1.9117,30.3775,Sandy clay
+Rwamagana,Munyaga,-1.9506,30.405,Clay
+Rwamagana,Munyiginya,-1.9311,30.405,Sandy loam
+Rwamagana,Mwulire,-1.9117,30.405,Clay loam
+Rwamagana,Nyakariro,-1.97,30.35,Sandy clay
+Rwamagana,Nzige,-1.97,30.3775,Clay
+Rwamagana,Rubona,-1.97,30.405,Sandy loam
+Rwamagana,Rukara,-1.9894,30.35,Clay loam
+Rwamagana,Rweru,-1.9894,30.3775,Sandy clay
+Nyarugenge,Gitega,-1.9547,30.0574,Clay loam
+Nyarugenge,Kanyinya,-1.9425,30.0234,Sandy clay
+Nyarugenge,Kigali,-1.9494,30.0588,Clay
+Nyarugenge,Kimisagara,-1.9569,30.0397,Sandy loam
+Nyarugenge,Mageragere,-1.9872,30.0089,Clay loam
+Nyarugenge,Muhima,-1.9436,30.0614,Sandy clay
+Nyarugenge,Nyakabanda,-1.9647,30.0397,Clay
+Nyarugenge,Nyamirambo,-1.975,30.0397,Sandy loam
+Nyarugenge,Nyarugenge,-1.9508,30.0556,Clay loam
+Nyarugenge,Rwezamenyo,-1.9494,30.0556,Clay
+Gasabo,Bumbogo,-1.8897,30.1147,Sandy clay
+Gasabo,Gatsata,-1.9178,30.0672,Clay loam
+Gasabo,Gikomero,-1.8794,30.1969,Sandy loam
+Gasabo,Gisozi,-1.9289,30.0839,Clay
+Gasabo,Jabana,-1.8961,30.0506,Sandy clay
+Gasabo,Jali,-1.8897,30.1672,Clay loam
+Gasabo,Kacyiru,-1.9447,30.0922,Loamy sand
+Gasabo,Kimihurura,-1.9536,30.0922,Clay
+Gasabo,Kimironko,-1.9494,30.1191,Sandy loam
+Gasabo,Kinyinya,-1.9178,30.1017,Clay loam
+Gasabo,Ndera,-1.9178,30.1672,Sandy clay
+Gasabo,Nduba,-1.8794,30.1372,Clay
+Gasabo,Remera,-1.9557,30.1097,Clay loam
+Gasabo,Rusororo,-1.9289,30.1447,Sandy loam
+Gasabo,Rutunga,-1.8897,30.1447,Clay
+Kicukiro,Gahanga,-2.0247,30.1017,Sandy clay
+Kicukiro,Gatenga,-1.9872,30.0922,Clay loam
+Kicukiro,Gikondo,-1.975,30.0756,Sandy loam
+Kicukiro,Kagarama,-1.9935,30.0922,Clay
+Kicukiro,Kanombe,-1.975,30.1286,Sandy clay
+Kicukiro,Kigarama,-2.0006,30.1156,Clay loam
+Kicukiro,Masaka,-2.0247,30.1447,Sandy loam
+Kicukiro,Niboye,-1.9872,30.1097,Clay
+Kicukiro,Nyarugunga,-1.9935,30.1286,Sandy clay
+Kicukiro,Kicukiro,-1.97,30.1,Loam

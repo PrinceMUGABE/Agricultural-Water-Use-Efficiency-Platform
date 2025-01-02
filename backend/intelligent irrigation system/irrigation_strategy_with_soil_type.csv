@@ -1,0 +1,1381 @@
+crop,season,altitude,soil_type,water_requirement_mm_day,irrigation_strategy,total_water_requirement_m3
+Maize,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Maize,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Maize,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Maize,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Maize,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Maize,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Maize,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Maize,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Maize,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Maize,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Maize,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Maize,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Maize,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Maize,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Maize,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Maize,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Maize,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Maize,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Maize,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Maize,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Maize,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Maize,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Maize,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Maize,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Maize,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Maize,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Maize,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Maize,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Maize,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Maize,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Rice,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Rice,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Rice,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Rice,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Rice,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Rice,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Rice,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Rice,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Rice,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Rice,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Rice,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Rice,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Rice,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Rice,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Rice,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Rice,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Rice,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Rice,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Rice,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Rice,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Rice,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Rice,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Rice,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Rice,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Rice,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Rice,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Rice,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Rice,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Rice,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Rice,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Sorghum,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Sorghum,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Sorghum,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Sorghum,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Sorghum,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Sorghum,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Sorghum,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Sorghum,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Sorghum,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Sorghum,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Sorghum,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Sorghum,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Sorghum,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Sorghum,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Sorghum,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Sorghum,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Sorghum,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Sorghum,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Sorghum,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Sorghum,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Sorghum,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Sorghum,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Sorghum,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Sorghum,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Sorghum,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Sorghum,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Sorghum,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Sorghum,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Sorghum,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Sorghum,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Wheat,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Wheat,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Wheat,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Wheat,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Wheat,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Wheat,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Wheat,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Wheat,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Wheat,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Wheat,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Wheat,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Wheat,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Wheat,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Wheat,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Wheat,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Wheat,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Wheat,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Wheat,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Wheat,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Wheat,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Wheat,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Wheat,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Wheat,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Wheat,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Wheat,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Wheat,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Wheat,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Wheat,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Wheat,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Wheat,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Millet,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Millet,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Millet,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Millet,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Millet,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Millet,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Millet,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Millet,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Millet,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Millet,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Millet,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Millet,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Millet,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Millet,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Millet,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Millet,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Millet,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Millet,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Millet,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Millet,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Millet,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Millet,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Millet,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Millet,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Millet,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Millet,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Millet,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Millet,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Millet,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Millet,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Cassava,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Cassava,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Cassava,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Cassava,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Cassava,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Cassava,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Cassava,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Cassava,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Cassava,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Cassava,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Cassava,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Cassava,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Cassava,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Cassava,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Cassava,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Cassava,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Cassava,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Cassava,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Cassava,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Cassava,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Cassava,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Cassava,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Cassava,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Cassava,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Cassava,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Cassava,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Cassava,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Cassava,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Cassava,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Cassava,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Sweet Potatoes,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Sweet Potatoes,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Sweet Potatoes,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Sweet Potatoes,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Sweet Potatoes,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Sweet Potatoes,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Sweet Potatoes,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Sweet Potatoes,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Sweet Potatoes,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Sweet Potatoes,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Sweet Potatoes,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Sweet Potatoes,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Sweet Potatoes,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Sweet Potatoes,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Sweet Potatoes,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Sweet Potatoes,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Sweet Potatoes,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Sweet Potatoes,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Sweet Potatoes,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Sweet Potatoes,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Sweet Potatoes,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Sweet Potatoes,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Sweet Potatoes,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Sweet Potatoes,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Sweet Potatoes,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Sweet Potatoes,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Sweet Potatoes,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Sweet Potatoes,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Sweet Potatoes,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Sweet Potatoes,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Irish Potatoes,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Irish Potatoes,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Irish Potatoes,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Irish Potatoes,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Irish Potatoes,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Irish Potatoes,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Irish Potatoes,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Irish Potatoes,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Irish Potatoes,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Irish Potatoes,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Irish Potatoes,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Irish Potatoes,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Irish Potatoes,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Irish Potatoes,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Irish Potatoes,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Irish Potatoes,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Irish Potatoes,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Irish Potatoes,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Irish Potatoes,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Irish Potatoes,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Irish Potatoes,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Irish Potatoes,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Irish Potatoes,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Irish Potatoes,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Irish Potatoes,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Irish Potatoes,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Irish Potatoes,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Irish Potatoes,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Irish Potatoes,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Irish Potatoes,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Yams,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Yams,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Yams,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Yams,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Yams,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Yams,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Yams,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Yams,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Yams,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Yams,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Yams,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Yams,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Yams,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Yams,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Yams,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Yams,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Yams,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Yams,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Yams,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Yams,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Yams,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Yams,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Yams,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Yams,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Yams,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Yams,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Yams,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Yams,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Yams,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Yams,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Taro,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Taro,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Taro,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Taro,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Taro,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Taro,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Taro,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Taro,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Taro,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Taro,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Taro,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Taro,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Taro,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Taro,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Taro,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Taro,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Taro,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Taro,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Taro,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Taro,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Taro,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Taro,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Taro,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Taro,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Taro,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Taro,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Taro,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Taro,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Taro,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Taro,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Beans,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Beans,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Beans,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Beans,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Beans,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Beans,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Beans,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Beans,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Beans,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Beans,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Beans,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Beans,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Beans,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Beans,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Beans,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Beans,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Beans,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Beans,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Beans,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Beans,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Beans,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Beans,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Beans,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Beans,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Beans,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Beans,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Beans,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Beans,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Beans,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Beans,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Soybeans,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Soybeans,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Soybeans,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Soybeans,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Soybeans,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Soybeans,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Soybeans,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Soybeans,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Soybeans,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Soybeans,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Soybeans,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Soybeans,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Soybeans,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Soybeans,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Soybeans,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Soybeans,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Soybeans,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Soybeans,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Soybeans,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Soybeans,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Soybeans,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Soybeans,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Soybeans,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Soybeans,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Soybeans,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Soybeans,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Soybeans,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Soybeans,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Soybeans,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Soybeans,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Groundnuts,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Groundnuts,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Groundnuts,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Groundnuts,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Groundnuts,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Groundnuts,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Groundnuts,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Groundnuts,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Groundnuts,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Groundnuts,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Groundnuts,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Groundnuts,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Groundnuts,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Groundnuts,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Groundnuts,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Groundnuts,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Groundnuts,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Groundnuts,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Groundnuts,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Groundnuts,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Groundnuts,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Groundnuts,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Groundnuts,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Groundnuts,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Groundnuts,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Groundnuts,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Groundnuts,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Groundnuts,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Groundnuts,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Groundnuts,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Peas,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Peas,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Peas,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Peas,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Peas,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Peas,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Peas,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Peas,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Peas,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Peas,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Peas,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Peas,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Peas,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Peas,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Peas,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Peas,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Peas,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Peas,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Peas,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Peas,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Peas,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Peas,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Peas,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Peas,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Peas,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Peas,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Peas,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Peas,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Peas,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Peas,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Green Grams,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Green Grams,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Green Grams,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Green Grams,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Green Grams,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Green Grams,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Green Grams,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Green Grams,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Green Grams,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Green Grams,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Green Grams,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Green Grams,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Green Grams,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Green Grams,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Green Grams,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Green Grams,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Green Grams,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Green Grams,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Green Grams,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Green Grams,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Green Grams,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Green Grams,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Green Grams,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Green Grams,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Green Grams,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Green Grams,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Green Grams,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Green Grams,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Green Grams,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Green Grams,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Coffee,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Coffee,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Coffee,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Coffee,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Coffee,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Coffee,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Coffee,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Coffee,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Coffee,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Coffee,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Coffee,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Coffee,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Coffee,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Coffee,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Coffee,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Coffee,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Coffee,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Coffee,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Coffee,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Coffee,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Coffee,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Coffee,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Coffee,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Coffee,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Coffee,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Coffee,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Coffee,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Coffee,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Coffee,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Coffee,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Tea,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Tea,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Tea,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Tea,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Tea,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Tea,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Tea,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Tea,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Tea,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Tea,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Tea,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Tea,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Tea,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Tea,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Tea,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Tea,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Tea,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Tea,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Tea,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Tea,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Tea,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Tea,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Tea,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Tea,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Tea,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Tea,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Tea,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Tea,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Tea,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Tea,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Pyrethrum,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Pyrethrum,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Pyrethrum,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Pyrethrum,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Pyrethrum,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Pyrethrum,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Pyrethrum,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Pyrethrum,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Pyrethrum,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Pyrethrum,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Pyrethrum,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Pyrethrum,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Pyrethrum,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Pyrethrum,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Pyrethrum,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Pyrethrum,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Pyrethrum,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Pyrethrum,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Pyrethrum,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Pyrethrum,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Pyrethrum,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Pyrethrum,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Pyrethrum,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Pyrethrum,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Pyrethrum,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Pyrethrum,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Pyrethrum,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Pyrethrum,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Pyrethrum,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Pyrethrum,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Sugarcane,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Sugarcane,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Sugarcane,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Sugarcane,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Sugarcane,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Sugarcane,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Sugarcane,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Sugarcane,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Sugarcane,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Sugarcane,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Sugarcane,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Sugarcane,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Sugarcane,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Sugarcane,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Sugarcane,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Sugarcane,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Sugarcane,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Sugarcane,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Sugarcane,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Sugarcane,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Sugarcane,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Sugarcane,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Sugarcane,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Sugarcane,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Sugarcane,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Sugarcane,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Sugarcane,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Sugarcane,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Sugarcane,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Sugarcane,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Cotton,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Cotton,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Cotton,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Cotton,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Cotton,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Cotton,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Cotton,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Cotton,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Cotton,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Cotton,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Cotton,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Cotton,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Cotton,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Cotton,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Cotton,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Cotton,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Cotton,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Cotton,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Cotton,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Cotton,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Cotton,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Cotton,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Cotton,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Cotton,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Cotton,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Cotton,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Cotton,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Cotton,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Cotton,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Cotton,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Banana,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Banana,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Banana,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Banana,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Banana,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Banana,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Banana,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Banana,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Banana,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Banana,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Banana,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Banana,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Banana,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Banana,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Banana,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Banana,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Banana,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Banana,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Banana,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Banana,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Banana,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Banana,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Banana,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Banana,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Banana,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Banana,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Banana,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Banana,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Banana,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Banana,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Avocado,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Avocado,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Avocado,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Avocado,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Avocado,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Avocado,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Avocado,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Avocado,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Avocado,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Avocado,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Avocado,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Avocado,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Avocado,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Avocado,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Avocado,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Avocado,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Avocado,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Avocado,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Avocado,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Avocado,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Avocado,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Avocado,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Avocado,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Avocado,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Avocado,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Avocado,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Avocado,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Avocado,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Avocado,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Avocado,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Mango,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Mango,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Mango,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Mango,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Mango,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Mango,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Mango,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Mango,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Mango,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Mango,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Mango,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Mango,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Mango,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Mango,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Mango,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Mango,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Mango,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Mango,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Mango,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Mango,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Mango,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Mango,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Mango,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Mango,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Mango,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Mango,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Mango,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Mango,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Mango,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Mango,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Pineapple,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Pineapple,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Pineapple,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Pineapple,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Pineapple,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Pineapple,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Pineapple,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Pineapple,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Pineapple,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Pineapple,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Pineapple,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Pineapple,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Pineapple,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Pineapple,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Pineapple,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Pineapple,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Pineapple,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Pineapple,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Pineapple,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Pineapple,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Pineapple,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Pineapple,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Pineapple,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Pineapple,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Pineapple,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Pineapple,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Pineapple,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Pineapple,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Pineapple,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Pineapple,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Passion Fruit,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Passion Fruit,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Passion Fruit,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Passion Fruit,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Passion Fruit,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Passion Fruit,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Passion Fruit,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Passion Fruit,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Passion Fruit,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Passion Fruit,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Passion Fruit,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Passion Fruit,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Passion Fruit,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Passion Fruit,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Passion Fruit,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Passion Fruit,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Passion Fruit,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Passion Fruit,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Passion Fruit,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Passion Fruit,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Passion Fruit,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Passion Fruit,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Passion Fruit,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Passion Fruit,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Passion Fruit,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Passion Fruit,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Passion Fruit,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Passion Fruit,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Passion Fruit,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Passion Fruit,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Tree Tomato,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Tree Tomato,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Tree Tomato,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Tree Tomato,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Tree Tomato,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Tree Tomato,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Tree Tomato,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Tree Tomato,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Tree Tomato,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Tree Tomato,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Tree Tomato,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Tree Tomato,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Tree Tomato,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Tree Tomato,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Tree Tomato,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Tree Tomato,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Tree Tomato,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Tree Tomato,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Tree Tomato,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Tree Tomato,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Tree Tomato,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Tree Tomato,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Tree Tomato,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Tree Tomato,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Tree Tomato,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Tree Tomato,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Tree Tomato,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Tree Tomato,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Tree Tomato,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Tree Tomato,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Tomatoes,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Tomatoes,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Tomatoes,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Tomatoes,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Tomatoes,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Tomatoes,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Tomatoes,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Tomatoes,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Tomatoes,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Tomatoes,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Tomatoes,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Tomatoes,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Tomatoes,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Tomatoes,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Tomatoes,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Tomatoes,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Tomatoes,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Tomatoes,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Tomatoes,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Tomatoes,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Tomatoes,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Tomatoes,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Tomatoes,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Tomatoes,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Tomatoes,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Tomatoes,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Tomatoes,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Tomatoes,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Tomatoes,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Tomatoes,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Cabbage,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Cabbage,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Cabbage,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Cabbage,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Cabbage,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Cabbage,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Cabbage,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Cabbage,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Cabbage,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Cabbage,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Cabbage,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Cabbage,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Cabbage,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Cabbage,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Cabbage,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Cabbage,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Cabbage,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Cabbage,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Cabbage,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Cabbage,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Cabbage,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Cabbage,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Cabbage,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Cabbage,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Cabbage,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Cabbage,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Cabbage,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Cabbage,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Cabbage,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Cabbage,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Carrots,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Carrots,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Carrots,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Carrots,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Carrots,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Carrots,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Carrots,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Carrots,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Carrots,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Carrots,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Carrots,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Carrots,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Carrots,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Carrots,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Carrots,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Carrots,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Carrots,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Carrots,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Carrots,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Carrots,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Carrots,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Carrots,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Carrots,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Carrots,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Carrots,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Carrots,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Carrots,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Carrots,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Carrots,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Carrots,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Onions,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Onions,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Onions,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Onions,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Onions,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Onions,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Onions,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Onions,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Onions,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Onions,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Onions,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Onions,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Onions,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Onions,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Onions,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Onions,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Onions,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Onions,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Onions,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Onions,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Onions,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Onions,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Onions,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Onions,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Onions,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Onions,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Onions,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Onions,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Onions,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Onions,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Green Peppers,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Green Peppers,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Green Peppers,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Green Peppers,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Green Peppers,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Green Peppers,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Green Peppers,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Green Peppers,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Green Peppers,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Green Peppers,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Green Peppers,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Green Peppers,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Green Peppers,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Green Peppers,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Green Peppers,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Green Peppers,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Green Peppers,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Green Peppers,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Green Peppers,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Green Peppers,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Green Peppers,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Green Peppers,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Green Peppers,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Green Peppers,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Green Peppers,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Green Peppers,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Green Peppers,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Green Peppers,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Green Peppers,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Green Peppers,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Eggplant,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Eggplant,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Eggplant,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Eggplant,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Eggplant,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Eggplant,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Eggplant,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Eggplant,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Eggplant,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Eggplant,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Eggplant,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Eggplant,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Eggplant,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Eggplant,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Eggplant,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Eggplant,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Eggplant,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Eggplant,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Eggplant,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Eggplant,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Eggplant,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Eggplant,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Eggplant,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Eggplant,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Eggplant,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Eggplant,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Eggplant,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Eggplant,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Eggplant,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Eggplant,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Sunflower,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Sunflower,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Sunflower,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Sunflower,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Sunflower,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Sunflower,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Sunflower,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Sunflower,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Sunflower,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Sunflower,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Sunflower,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Sunflower,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Sunflower,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Sunflower,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Sunflower,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Sunflower,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Sunflower,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Sunflower,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Sunflower,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Sunflower,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Sunflower,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Sunflower,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Sunflower,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Sunflower,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Sunflower,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Sunflower,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Sunflower,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Sunflower,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Sunflower,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Sunflower,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Palm Oil,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Palm Oil,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Palm Oil,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Palm Oil,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Palm Oil,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Palm Oil,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Palm Oil,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Palm Oil,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Palm Oil,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Palm Oil,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Palm Oil,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Palm Oil,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Palm Oil,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Palm Oil,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Palm Oil,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Palm Oil,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Palm Oil,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Palm Oil,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Palm Oil,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Palm Oil,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Palm Oil,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Palm Oil,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Palm Oil,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Palm Oil,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Palm Oil,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Palm Oil,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Palm Oil,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Palm Oil,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Palm Oil,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Palm Oil,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Macadamia,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Macadamia,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Macadamia,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Macadamia,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Macadamia,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Macadamia,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Macadamia,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Macadamia,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Macadamia,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Macadamia,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Macadamia,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Macadamia,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Macadamia,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Macadamia,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Macadamia,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Macadamia,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Macadamia,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Macadamia,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Macadamia,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Macadamia,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Macadamia,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Macadamia,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Macadamia,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Macadamia,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Macadamia,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Macadamia,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Macadamia,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Macadamia,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Macadamia,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Macadamia,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Ginger,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Ginger,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Ginger,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Ginger,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Ginger,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Ginger,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Ginger,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Ginger,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Ginger,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Ginger,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Ginger,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Ginger,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Ginger,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Ginger,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Ginger,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Ginger,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Ginger,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Ginger,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Ginger,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Ginger,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Ginger,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Ginger,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Ginger,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Ginger,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Ginger,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Ginger,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Ginger,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Ginger,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Ginger,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Ginger,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Chili Peppers,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Chili Peppers,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Chili Peppers,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Chili Peppers,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Chili Peppers,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Chili Peppers,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Chili Peppers,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Chili Peppers,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Chili Peppers,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Chili Peppers,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Chili Peppers,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Chili Peppers,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Chili Peppers,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Chili Peppers,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Chili Peppers,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Chili Peppers,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Chili Peppers,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Chili Peppers,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Chili Peppers,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Chili Peppers,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Chili Peppers,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Chili Peppers,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Chili Peppers,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Chili Peppers,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Chili Peppers,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Chili Peppers,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Chili Peppers,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Chili Peppers,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Chili Peppers,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Chili Peppers,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Vanilla,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Vanilla,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Vanilla,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Vanilla,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Vanilla,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Vanilla,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Vanilla,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Vanilla,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Vanilla,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Vanilla,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Vanilla,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Vanilla,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Vanilla,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Vanilla,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Vanilla,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Vanilla,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Vanilla,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Vanilla,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Vanilla,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Vanilla,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Vanilla,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Vanilla,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Vanilla,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Vanilla,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Vanilla,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Vanilla,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Vanilla,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Vanilla,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Vanilla,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Vanilla,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Barley,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Barley,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Barley,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Barley,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Barley,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Barley,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Barley,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Barley,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Barley,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Barley,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Barley,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Barley,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Barley,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Barley,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Barley,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Barley,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Barley,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Barley,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Barley,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Barley,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Barley,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Barley,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Barley,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Barley,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Barley,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Barley,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Barley,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Barley,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Barley,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Barley,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Oats,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Oats,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Oats,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Oats,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Oats,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Oats,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Oats,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Oats,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Oats,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Oats,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Oats,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Oats,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Oats,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Oats,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Oats,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Oats,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Oats,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Oats,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Oats,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Oats,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Oats,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Oats,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Oats,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Oats,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Oats,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Oats,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Oats,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Oats,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Oats,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Oats,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Papaya,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Papaya,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Papaya,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Papaya,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Papaya,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Papaya,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Papaya,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Papaya,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Papaya,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Papaya,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Papaya,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Papaya,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Papaya,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Papaya,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Papaya,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Papaya,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Papaya,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Papaya,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Papaya,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Papaya,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Papaya,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Papaya,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Papaya,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Papaya,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Papaya,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Papaya,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Papaya,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Papaya,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Papaya,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Papaya,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Guava,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Guava,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Guava,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Guava,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Guava,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Guava,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Guava,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Guava,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Guava,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Guava,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Guava,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Guava,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Guava,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Guava,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Guava,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Guava,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Guava,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Guava,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Guava,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Guava,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Guava,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Guava,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Guava,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Guava,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Guava,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Guava,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Guava,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Guava,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Guava,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Guava,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Spinach,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Spinach,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Spinach,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Spinach,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Spinach,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Spinach,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Spinach,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Spinach,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Spinach,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Spinach,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Spinach,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Spinach,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Spinach,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Spinach,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Spinach,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Spinach,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Spinach,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Spinach,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Spinach,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Spinach,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Spinach,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Spinach,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Spinach,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Spinach,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Spinach,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Spinach,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Spinach,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Spinach,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Spinach,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Spinach,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Lettuce,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Lettuce,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Lettuce,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Lettuce,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Lettuce,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Lettuce,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Lettuce,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Lettuce,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Lettuce,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Lettuce,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Lettuce,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Lettuce,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Lettuce,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Lettuce,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Lettuce,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Lettuce,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Lettuce,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Lettuce,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Lettuce,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Lettuce,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Lettuce,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Lettuce,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Lettuce,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Lettuce,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Lettuce,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Lettuce,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Lettuce,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Lettuce,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Lettuce,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Lettuce,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Kale,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Kale,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Kale,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Kale,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Kale,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Kale,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Kale,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Kale,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Kale,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Kale,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Kale,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Kale,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Kale,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Kale,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Kale,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Kale,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Kale,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Kale,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Kale,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Kale,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Kale,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Kale,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Kale,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Kale,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Kale,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Kale,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Kale,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Kale,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Kale,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Kale,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Cucumber,dry,low,sandy,850,Drip irrigation or rain-fed,8500000.0
+Cucumber,dry,low,loamy,850,Sprinkler irrigation or combination,8500000.0
+Cucumber,dry,low,clay,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Cucumber,dry,low,silty,850,Sprinkler irrigation or combination,8500000.0
+Cucumber,dry,low,peaty,850,Flood irrigation or high-frequency sprinklers,8500000.0
+Cucumber,wet,low,sandy,630,Drip irrigation or rain-fed,6300000.0
+Cucumber,wet,low,loamy,630,Sprinkler irrigation or combination,6300000.0
+Cucumber,wet,low,clay,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Cucumber,wet,low,silty,630,Sprinkler irrigation or combination,6300000.0
+Cucumber,wet,low,peaty,630,Flood irrigation or high-frequency sprinklers,6300000.0
+Cucumber,dry,mid,sandy,900,Drip irrigation or rain-fed,9000000.0
+Cucumber,dry,mid,loamy,900,Sprinkler irrigation or combination,9000000.0
+Cucumber,dry,mid,clay,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Cucumber,dry,mid,silty,900,Sprinkler irrigation or combination,9000000.0
+Cucumber,dry,mid,peaty,900,Flood irrigation or high-frequency sprinklers,9000000.0
+Cucumber,wet,mid,sandy,650,Drip irrigation or rain-fed,6500000.0
+Cucumber,wet,mid,loamy,650,Sprinkler irrigation or combination,6500000.0
+Cucumber,wet,mid,clay,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Cucumber,wet,mid,silty,650,Sprinkler irrigation or combination,6500000.0
+Cucumber,wet,mid,peaty,650,Flood irrigation or high-frequency sprinklers,6500000.0
+Cucumber,dry,high,sandy,800,Drip irrigation or rain-fed,8000000.0
+Cucumber,dry,high,loamy,800,Sprinkler irrigation or combination,8000000.0
+Cucumber,dry,high,clay,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Cucumber,dry,high,silty,800,Sprinkler irrigation or combination,8000000.0
+Cucumber,dry,high,peaty,800,Flood irrigation or high-frequency sprinklers,8000000.0
+Cucumber,wet,high,sandy,580,Drip irrigation or rain-fed,5800000.0
+Cucumber,wet,high,loamy,580,Sprinkler irrigation or combination,5800000.0
+Cucumber,wet,high,clay,580,Flood irrigation or high-frequency sprinklers,5800000.0
+Cucumber,wet,high,silty,580,Sprinkler irrigation or combination,5800000.0
+Cucumber,wet,high,peaty,580,Flood irrigation or high-frequency sprinklers,5800000.0
