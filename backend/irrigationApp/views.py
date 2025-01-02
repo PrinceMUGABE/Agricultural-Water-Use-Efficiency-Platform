@@ -708,11 +708,11 @@ def delete_prediction(request, prediction_id):
         prediction = get_object_or_404(Prediction, id=prediction_id)
         
         # Check if user is the owner of the prediction
-        if prediction.created_by != request.user:
-            return Response({
-                "status": "error",
-                "message": "You don't have permission to delete this prediction"
-            }, status=status.HTTP_403_FORBIDDEN)
+        # if prediction.created_by != request.user:
+        #     return Response({
+        #         "status": "error",
+        #         "message": "You don't have permission to delete this prediction"
+        #     }, status=status.HTTP_403_FORBIDDEN)
         
         prediction.delete()
         return Response({
