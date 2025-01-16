@@ -472,65 +472,245 @@ class IrrigationPredictor:
 
 
 
-def get_farm_prediction(location):
+# def get_farm_prediction(location):
 
-    try:
-        # Call the existing prediction function
-        result = predict_crop_and_water_requirement(location, api_key="54bfe931d3e776f190416f2bd20819d3")
+#     try:
+#         # Call the existing prediction function
+#         result = predict_crop_and_water_requirement(location, api_key="54bfe931d3e776f190416f2bd20819d3")
         
-        if result['status'] == 'success':
-            # Initialize irrigation predictor
-            predictor = IrrigationPredictor()
+#         if result['status'] == 'success':
+#             # Initialize irrigation predictor
+#             predictor = IrrigationPredictor()
             
-            # Get irrigation strategy
-            irrigation_strategy = predictor.predict(
-                result['weather_data'],
-                result['soil_data'],
+#             # Get irrigation strategy
+#             irrigation_strategy = predictor.predict(
+#                 result['weather_data'],
+#                 result['soil_data'],
                 
-                result['predicted_crop']
-            )
+#                 result['predicted_crop']
+#             )
             
-            # Return formatted output
-            return {
-                'status': 'success',
-                'location': location,
-                'weather_data': result['weather_data'],
-                'soil_data': result['soil_data'],
-                'soil_type': result['input_conditions']['soil_texture'], 
-                'predicted_crop': result['predicted_crop'],
-                'water_requirement': result['predicted_water_requirement'],
-                'irrigation_strategy': irrigation_strategy
-            }
-        else:
+#             # Return formatted output
+#             return {
+#                 'status': 'success',
+#                 'location': location,
+#                 'weather_data': result['weather_data'],
+#                 'soil_data': result['soil_data'],
+#                 'soil_type': result['input_conditions']['soil_texture'], 
+#                 'predicted_crop': result['predicted_crop'],
+#                 'water_requirement': result['predicted_water_requirement'],
+#                 'irrigation_strategy': irrigation_strategy
+#             }
+#         else:
+#             return {
+#                 'status': 'error',
+#                 'message': result['message']
+#             }
+            
+#     except Exception as e:
+#         return {
+#             'status': 'error',
+#             'message': str(e)
+#         }
+ 
+ 
+
+
+
+# @api_view(['POST'])
+# @permission_classes([IsAuthenticated])
+# def make_prediction(request):
+#     location = request.data.get('district')
+#     submitted_crop = request.data.get('crop')
+    
+#     print(f"\n\n Location submitted: {location}")
+
+#     try:
+#         # First check if weather data can be retrieved
+#         get_weather_data(location)
+        
+#         try:
+#             # Get prediction
+#             prediction_result = get_farm_prediction(location)
+            
+#             if prediction_result['status'] == 'success':
+#                 # Create Prediction object
+#                 prediction = Prediction(
+#                     # Metadata
+#                     status=prediction_result['status'],
+#                     location=prediction_result['location'],
+#                     created_by=request.user,
+                    
+#                     # Weather data
+#                     temperature=prediction_result['weather_data']['temperature'],
+#                     humidity=prediction_result['weather_data']['humidity'],
+#                     wind_speed=prediction_result['weather_data']['wind_speed'],
+#                     rainfall=prediction_result['weather_data']['rainfall'],
+#                     latitude=prediction_result['weather_data']['latitude'],
+#                     longitude=prediction_result['weather_data']['longitude'],
+                    
+#                     # Soil data
+#                     nitrogen=prediction_result['soil_data']['N'],
+#                     phosphorus=prediction_result['soil_data']['P'],
+#                     potassium=prediction_result['soil_data']['K'],
+#                     ph=prediction_result['soil_data']['ph'],
+#                     elevation=prediction_result['soil_data']['elevation'],
+#                     slope=prediction_result['soil_data']['slope'],
+#                     aspect=prediction_result['soil_data']['aspect'],
+#                     water_holding_capacity=prediction_result['soil_data']['water_holding_capacity'],
+#                     solar_radiation=prediction_result['soil_data']['solar_radiation'],
+#                     electrical_conductivity=prediction_result['soil_data']['ec'],
+#                     zinc=prediction_result['soil_data']['zn'],
+#                     soil_type=prediction_result['soil_type'],
+                    
+#                     # Prediction results
+#                     predicted_crop=prediction_result['predicted_crop'],
+#                     water_requirement=prediction_result['water_requirement'],
+#                     irrigation_strategy=prediction_result['irrigation_strategy']
+#                 )
+                
+#                 # Save to database
+#                 prediction.save()
+                
+#                 # Serialize the saved prediction
+#                 serializer = PredictionSerializer(prediction)
+                
+#                 return Response({
+#                     "message": "Prediction saved successfully",
+#                     "prediction": serializer.data
+#                 }, status=201)
+            
+#             else:
+#                 return Response({
+#                     "error": "Prediction failed",
+#                     "details": prediction_result['message']
+#                 }, status=400)
+                
+#         except Exception as e:
+#             return Response({
+#                 "error": "Failed to process prediction",
+#                 "details": str(e)
+#             }, status=400)
+            
+#     except Exception as e:
+#         prediction = Prediction(
+#                     # Metadata
+#                     status='failed',
+#                     location=location,
+#                     created_by=request.user,
+                    
+                    
+#                 )
+                
+#         return Response({
+#             "error": "Location not found",
+#             "details": str(e)
+#         }, status=404)
+        
+ 
+def get_valid_crops():
+    """
+    Get list of valid crops that the model was trained on.
+    Returns a list of valid crop names.
+    """
+    # Load the label encoder to get valid crops
+    label_encoder = load('../crop recommendation/label_encoder.joblib')
+    return sorted(label_encoder.classes_.tolist())
+
+def validate_crop(crop):
+    """
+    Validate if the submitted crop is supported by the model.
+    Returns tuple (bool, list) indicating if crop is valid and list of valid crops.
+    """
+    valid_crops = get_valid_crops()
+    return crop.lower() in [c.lower() for c in valid_crops], valid_crops
+
+def get_farm_prediction(location, submitted_crop):
+    """
+    Predict water requirement and irrigation strategy based on weather data, soil data, and submitted crop.
+    """
+    try:
+        # Validate crop first
+        is_valid_crop, valid_crops = validate_crop(submitted_crop)
+        if not is_valid_crop:
             return {
                 'status': 'error',
-                'message': result['message']
+                'message': f"Invalid crop: '{submitted_crop}'. Valid crops are: {', '.join(valid_crops)}"
             }
+
+        # Get weather data
+        weather_data = get_weather_data(location)
+        
+        # Generate random soil data
+        soil_data = generate_random_soil_data()
+        
+        # Predict soil texture
+        latitude = weather_data['latitude']
+        longitude = weather_data['longitude']
+        soil_texture = predict_soil(location, latitude, longitude)
+        
+        # Use the validated crop (maintaining original case from valid_crops list)
+        validated_crop = next(crop for crop in get_valid_crops() 
+                            if crop.lower() == submitted_crop.lower())
+        
+        # Predict water requirement for submitted crop
+        predicted_water_requirement = predict_water_requirement(
+            location=location,
+            weather_data=weather_data,
+            soil_data=soil_data,
+            crop_name=validated_crop
+        )
+        
+        # Initialize irrigation predictor
+        predictor = IrrigationPredictor()
+        
+        # Get irrigation strategy using submitted crop
+        irrigation_strategy = predictor.predict(
+            weather_data,
+            soil_data,
+            validated_crop
+        )
+        
+        # Return formatted output
+        return {
+            'status': 'success',
+            'location': location,
+            'weather_data': weather_data,
+            'soil_data': soil_data,
+            'soil_type': soil_texture,
+            'submitted_crop': validated_crop,
+            'water_requirement': round(predicted_water_requirement, 2),
+            'irrigation_strategy': irrigation_strategy
+        }
             
     except Exception as e:
         return {
             'status': 'error',
             'message': str(e)
         }
- 
- 
-
-
 
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 def make_prediction(request):
     location = request.data.get('district')
+    submitted_crop = request.data.get('crop')
+    
+    if not submitted_crop:
+        return Response({
+            "error": "Crop must be specified",
+            "details": "Please provide a crop value in the request"
+        }, status=400)
     
     print(f"\n\n Location submitted: {location}")
+    print(f"Crop submitted: {submitted_crop}")
 
     try:
         # First check if weather data can be retrieved
         get_weather_data(location)
         
         try:
-            # Get prediction
-            prediction_result = get_farm_prediction(location)
+            # Get prediction with submitted crop
+            prediction_result = get_farm_prediction(location, submitted_crop)
             
             if prediction_result['status'] == 'success':
                 # Create Prediction object
@@ -562,8 +742,8 @@ def make_prediction(request):
                     zinc=prediction_result['soil_data']['zn'],
                     soil_type=prediction_result['soil_type'],
                     
-                    # Prediction results
-                    predicted_crop=prediction_result['predicted_crop'],
+                    # Using submitted crop instead of predicted crop
+                    predicted_crop=prediction_result['submitted_crop'],
                     water_requirement=prediction_result['water_requirement'],
                     irrigation_strategy=prediction_result['irrigation_strategy']
                 )
@@ -578,7 +758,6 @@ def make_prediction(request):
                     "message": "Prediction saved successfully",
                     "prediction": serializer.data
                 }, status=201)
-            
             else:
                 return Response({
                     "error": "Prediction failed",
@@ -593,13 +772,10 @@ def make_prediction(request):
             
     except Exception as e:
         prediction = Prediction(
-                    # Metadata
-                    status='failed',
-                    location=location,
-                    created_by=request.user,
-                    
-                    
-                )
+            status='failed',
+            location=location,
+            created_by=request.user,
+        )
                 
         return Response({
             "error": "Location not found",
