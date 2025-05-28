@@ -276,6 +276,10 @@ def list_all_users(request):
     users = CustomUser.objects.all().values(
         'id', 'phone_number', 'email', 'role', 'created_at',
     )
+    
+    print(f"Retrived users: {users}\n\n")
+    if not users:
+        return Response({"message": "No users found."}, status=404)
     return Response({"users": list(users)}, status=200)
 
 

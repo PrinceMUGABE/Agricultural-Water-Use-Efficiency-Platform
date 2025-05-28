@@ -30,6 +30,16 @@ urlpatterns = [
     path('analytics/crop-rotation/admin/', views.admin_analyze_crop_rotation, name='crop_rotation_analysis'),
     path('analytics/weather-impact/admin/', views.admin_analyze_weather_impact, name='weather_impact_analysis'),
     path('analytics/efficiency/admin/', views.admin_get_efficiency_metrics, name='efficiency_metrics'),
+    
+    
+    # User-specific analytics URLs
+    path('analytics/water-usage/user/', views.user_get_water_usage_analytics, name='user_water_usage_analytics'),
+    path('analytics/soil-health/user/', views.user_get_soil_health_metrics, name='user_soil_health_metrics'),
+    path('analytics/crop-rotation/user/', views.user_analyze_crop_rotation, name='user_crop_rotation_analysis'),
+    path('analytics/weather-impact/user/', views.user_analyze_weather_impact, name='user_weather_impact_analysis'),
+    path('analytics/efficiency/user/', views.user_get_efficiency_metrics, name='user_efficiency_metrics'),
+    path('analytics/locations/user/', views.user_get_location_analytics, name='user_location_analytics'),
+    path('analytics/recent-predictions/', views.user_get_recent_predictions, name='user_recent_predictions'),
 
 ]
 

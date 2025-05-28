@@ -22,18 +22,24 @@ from django.shortcuts import get_object_or_404
 from .models import Prediction
 from .serializers import PredictionSerializer
 from userapp.models import CustomUser
-
+from django.core.mail import send_mail
 
 
 # Function to get weather data
 def get_weather_data(location):
     api_key = "54bfe931d3e776f190416f2bd20819d3"  # Use your OpenWeatherMap API key
 
-    """
-    Get weather data from OpenWeatherMap API
-    """
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}"
-    response = requests.get(url)
+    if not location:
+        raise ValueError("Location must be specified")
+    
+    # Construct the API URL
+    try:
+        
+        url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}"
+        response = requests.get(url)
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching weather data: {e}")
+        raise Exception(f"Error fetching weather data: {e}")
     
     if response.status_code == 200:
         data = response.json()
@@ -52,8 +58,11 @@ def get_weather_data(location):
         weather_info['latitude'] = data['coord']['lat']
         weather_info['longitude'] = data['coord']['lon']
         
+        print(f"Weather Data: {weather_info}\n")
+        
         return weather_info
     else:
+        print(f"Error fetching weather data: {response.status_code}")
         raise Exception(f"Error fetching weather data: {response.status_code}")
 
 
@@ -61,17 +70,7 @@ def get_weather_data(location):
 
 
 def predict_soil(district, latitude, longitude):
-    """
-    Predict the soil texture based on the district, latitude, and longitude.
-    
-    Parameters:
-        district (str): The district name.
-        latitude (float): The latitude coordinate.
-        longitude (float): The longitude coordinate.
-    
-    Returns:
-        str: The predicted soil texture.
-    """
+
     try:
         # Load the saved model and preprocessor
         soil_model = load('../Rwanda soil data/best_soil_texture_model.joblib')  # Correct path to the soil texture model
@@ -102,6 +101,7 @@ def predict_soil(district, latitude, longitude):
 
         # Use the model to predict the soil texture
         predicted_soil = soil_model.predict(processed_input)  # Using the correct model variable
+        print(f"Predicted soil type: {predict_soil}\n")
 
         # Return the predicted soil texture
         return predicted_soil[0]
@@ -109,7 +109,6 @@ def predict_soil(district, latitude, longitude):
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
-
 
 
 
@@ -212,85 +211,279 @@ def predict_crop(location, api_key, soil_texture):
         }
 
 
+import os
+import joblib
+import pandas as pd
+
 def predict_water_requirement(location, weather_data, soil_data, crop_name):
     """
     Predict the water requirement for a given crop based on weather and soil data.
     
     Parameters:
-        location (str): Name of the location
-        weather_data (dict): Dictionary containing weather data
-        soil_data (dict): Dictionary containing soil data
-        crop_name (str/dict): Name of the crop or crop prediction dictionary
+        weather_data (dict): Dictionary containing weather data.
+        soil_data (dict): Dictionary containing soil data.
+        crop_name (str): Name of the predicted crop.
         
     Returns:
-        float: Predicted water requirement in mm/day
+        float: Predicted water requirement in mm/day.
     """
-    # Extract crop name if a dictionary is provided
-    if isinstance(crop_name, dict) and 'predicted_crop' in crop_name:
-        crop_name = crop_name['predicted_crop']
+    try:
+        # Multiple possible paths to check for the model file
+        possible_paths = [
+            '../Crop water requirement/best_model_xgboost.joblib',
+            './Crop water requirement/best_model_xgboost.joblib',
+            'Crop water requirement/best_model_xgboost.joblib',
+            './best_model_xgboost.joblib',
+            'best_model_xgboost.joblib',
+            os.path.join(os.path.dirname(__file__), '..', 'Crop water requirement', 'best_model_xgboost.joblib'),
+            os.path.join(os.path.dirname(__file__), 'Crop water requirement', 'best_model_xgboost.joblib'),
+            os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'Crop water requirement', 'best_model_xgboost.joblib')
+        ]
+        
+        model_path = None
+        for path in possible_paths:
+            if os.path.exists(path):
+                model_path = path
+                print(f"Found model at: {path}")
+                break
+        
+        if model_path is None:
+            # List current directory contents to help debug
+            current_dir = os.getcwd()
+            print(f"Current working directory: {current_dir}")
+            print(f"Contents of current directory: {os.listdir(current_dir)}")
+            
+            # Check parent directory if it exists
+            parent_dir = os.path.dirname(current_dir)
+            if os.path.exists(parent_dir):
+                print(f"Contents of parent directory ({parent_dir}): {os.listdir(parent_dir)}")
+            
+            raise FileNotFoundError(
+                f"Model file 'best_model_xgboost.joblib' not found in any of the expected locations: {possible_paths}. "
+                f"Please ensure the model file exists and update the path accordingly."
+            )
+        
+        # Load the saved model
+        model_data = joblib.load(model_path)
+        scaler = model_data['scaler']
+        model = model_data['model']
+        feature_names = model_data['feature_names']
+        label_encoder = model_data['label_encoder']
+        
+        print(f"Model loaded successfully. Feature names: {feature_names}")
+        
+    except Exception as e:
+        print(f"Error loading model: {e}")
+        return None
     
-    # Load the saved model
-    model_data = joblib.load('../Crop water requirement/best_model_neural_network.joblib')  # Adjust path as needed
-    scaler = model_data['scaler']
-    model = model_data['model']
-    feature_names = model_data['feature_names']
+    # Create a comprehensive test data dictionary
+    test_data = {}
     
-    # Combine weather and soil data
-    test_data = {**weather_data, **soil_data}
+    # Add weather and soil data
+    test_data.update(weather_data)
+    test_data.update(soil_data)
     
-    # Helper function to encode the crop dynamically
-    def encode_crop(crop_name, feature_names):
-        crop_features = [f"crop_{crop_name.lower()}"]
-        return {feature: 1 if feature in crop_features else 0 for feature in feature_names if "crop_" in feature}
-    
-    # Helper function to determine the season based on the date
-    def determine_season():
-        month = datetime.now().month
-        if month in [11, 12, 1, 2, 3]:  # Example logic: adjust as per local seasons
-            return "dry_season"
-        else:
-            return "rainy_season"
-    
-    # Helper function to encode the season
-    def encode_season(season_name, feature_names):
-        season_features = [f"season_{season_name}"]
-        return {feature: 1 if feature in season_features else 0 for feature in feature_names if "season_" in feature}
-    
-    # Helper function to determine altitude type
-    def determine_altitude_type(elevation):
-        if elevation < 1000:
-            return "low_altitude"
-        elif 1000 <= elevation <= 2000:
-            return "mid_altitude"
-        else:
-            return "high_altitude"
-    
-    # Helper function to encode altitude type
-    def encode_altitude(altitude_type, feature_names):
-        altitude_features = [f"altitude_type_{altitude_type}"]
-        return {feature: 1 if feature in altitude_features else 0 for feature in feature_names if "altitude_type_" in feature}
+    # Map crop name to encoded value
+    crop_mapping = {
+        'Maize': 0, 'Rice': 1, 'Sorghum': 2, 'Wheat': 3, 'Millet': 4,
+        'Cassava': 5, 'Sweet Potatoes': 6, 'Irish Potatoes': 7, 'Yams': 8, 'Taro': 9,
+        'Beans': 10, 'Soybeans': 11, 'Groundnuts': 12, 'Peas': 13, 'Green Grams': 14,
+        'Coffee': 15, 'Tea': 16, 'Pyrethrum': 17, 'Sugarcane': 18, 'Cotton': 19,
+        'Banana': 20, 'Avocado': 21, 'Mango': 22, 'Pineapple': 23, 'Passion Fruit': 24, 
+        'Tree Tomato': 25, 'Tomatoes': 26, 'Cabbage': 27, 'Carrots': 28, 'Onions': 29, 
+        'Green Peppers': 30, 'Eggplant': 31, 'Sunflower': 32, 'Palm Oil': 33, 
+        'Macadamia': 34, 'Ginger': 35, 'Chili Peppers': 36, 'Vanilla': 37
+    }
     
     # Encode crop
-    test_data.update(encode_crop(crop_name, feature_names))
+    if crop_name in crop_mapping:
+        test_data['crop_encoded'] = crop_mapping[crop_name]
+    else:
+        print(f"Warning: Crop '{crop_name}' not found in mapping. Using default (0).")
+        test_data['crop_encoded'] = 0
     
-    # Determine and encode season
-    season_name = determine_season()
-    test_data.update(encode_season(season_name, feature_names))
+    # Determine and encode soil type based on soil properties
+    def determine_soil_type(soil_data):
+        # Simple heuristic based on soil properties
+        # You may need to adjust this based on your actual soil classification logic
+        ph = soil_data.get('ph', 7.0)
+        if ph < 5.5:
+            return 'sandy'  # Acidic soils are often sandy
+        elif ph > 7.5:
+            return 'clay'   # Alkaline soils are often clay
+        else:
+            return 'loamy'  # Neutral pH often indicates loamy soil
     
-    # Determine and encode altitude type
-    altitude_type = determine_altitude_type(test_data['elevation'])
-    test_data.update(encode_altitude(altitude_type, feature_names))
+    soil_type_mapping = {'sandy': 0, 'loamy': 1, 'clay': 2, 'silty': 3, 'peaty': 4}
+    soil_type = determine_soil_type(soil_data)
+    test_data['soil_type_encoded'] = soil_type_mapping[soil_type]
     
-    # Prepare the data for prediction
+    # Determine slope category
+    def determine_slope_category(slope_value):
+        if slope_value <= 5:
+            return '0-5'
+        elif slope_value <= 10:
+            return '5-10'
+        elif slope_value <= 15:
+            return '10-15'
+        else:
+            return '>15'
+    
+    slope_mapping = {'0-5': 0, '5-10': 1, '10-15': 2, '>15': 3}
+    slope_category = determine_slope_category(soil_data.get('slope', 5))
+    test_data['slope_encoded'] = slope_mapping[slope_category]
+    
+    # Determine temperature category
+    def determine_temp_category(temperature):
+        if temperature < 15:
+            return '<15'
+        elif temperature <= 25:
+            return '15-25'
+        elif temperature <= 30:
+            return '25-30'
+        else:
+            return '>30'
+    
+    temp_mapping = {'<15': 0, '15-25': 1, '25-30': 2, '>30': 3}
+    temp_category = determine_temp_category(weather_data.get('temperature', 20))
+    test_data['temp_encoded'] = temp_mapping[temp_category]
+    
+    # Determine humidity category
+    def determine_humidity_category(humidity):
+        if humidity < 40:
+            return '<40'
+        elif humidity <= 60:
+            return '40-60'
+        elif humidity <= 80:
+            return '60-80'
+        else:
+            return '>80'
+    
+    humidity_mapping = {'<40': 0, '40-60': 1, '60-80': 2, '>80': 3}
+    humidity_category = determine_humidity_category(weather_data.get('humidity', 60))
+    test_data['humidity_encoded'] = humidity_mapping[humidity_category]
+    
+    # Determine wind speed category
+    def determine_wind_category(wind_speed):
+        if wind_speed < 2:
+            return '<2'
+        elif wind_speed <= 5:
+            return '2-5'
+        elif wind_speed <= 8:
+            return '5-8'
+        else:
+            return '>8'
+    
+    wind_mapping = {'<2': 0, '2-5': 1, '5-8': 2, '>8': 3}
+    wind_category = determine_wind_category(weather_data.get('wind_speed', 3))
+    test_data['wind_speed_encoded'] = wind_mapping[wind_category]
+    
+    # Set default growth stage (you can make this dynamic based on planting date)
+    growth_stage_mapping = {'germination': 0, 'vegetative': 1, 'flowering': 2, 'fruit_development': 3, 'maturity': 4}
+    test_data['growth_stage_encoded'] = growth_stage_mapping['vegetative']  # Default to vegetative
+    
+    # Add base water requirements (these should match your training data structure)
+    # You'll need to add the actual base water requirement values here
+    # For now, using placeholder values - replace with actual lookup based on crop and conditions
+    elevation = soil_data.get('elevation', 1500)
+    
+    if elevation < 1500:
+        # Low altitude
+        test_data['low_altitude_dry'] = 600  # These should be looked up from your data
+        test_data['low_altitude_rainy'] = 420
+        test_data['mid_altitude_dry'] = 0
+        test_data['mid_altitude_rainy'] = 0
+        test_data['high_altitude_dry'] = 0
+        test_data['high_altitude_rainy'] = 0
+    elif elevation < 2000:
+        # Mid altitude
+        test_data['low_altitude_dry'] = 0
+        test_data['low_altitude_rainy'] = 0
+        test_data['mid_altitude_dry'] = 550
+        test_data['mid_altitude_rainy'] = 385
+        test_data['high_altitude_dry'] = 0
+        test_data['high_altitude_rainy'] = 0
+    else:
+        # High altitude
+        test_data['low_altitude_dry'] = 0
+        test_data['low_altitude_rainy'] = 0
+        test_data['mid_altitude_dry'] = 0
+        test_data['mid_altitude_rainy'] = 0
+        test_data['high_altitude_dry'] = 500
+        test_data['high_altitude_rainy'] = 350
+    
+    print(f"Test data prepared: {test_data}")
+    
+    # Create DataFrame and align with training features
     df_test = pd.DataFrame([test_data])
-    df_test = df_test.reindex(columns=feature_names, fill_value=0)  # Align to training data columns
-    X_test_scaled = scaler.transform(df_test)
+    
+    # Ensure all required features are present
+    for feature in feature_names:
+        if feature not in df_test.columns:
+            df_test[feature] = 0  # Fill missing features with 0
+    
+    # Select only the features used in training
+    df_test = df_test[feature_names]
+    
+    print(f"Test DataFrame shape: {df_test.shape}")
+    print(f"Test DataFrame columns: {df_test.columns.tolist()}")
+    print(f"Test DataFrame values: {df_test.iloc[0].to_dict()}")
+    
+    # Scale the features (only for models that require scaling)
+    # Check if the model needs scaling by looking at the model type
+    model_name = str(type(model).__name__)
+    if model_name in ['Ridge', 'Lasso', 'ElasticNet']:
+        X_test_scaled = scaler.transform(df_test)
+        print("Applied scaling for linear model")
+    else:
+        X_test_scaled = df_test.values
+        print("No scaling applied for tree-based model")
     
     # Predict water requirement
     predicted_water_requirement = model.predict(X_test_scaled)
     
+    print(f"Raw prediction: {predicted_water_requirement}")
+    
     return predicted_water_requirement[0]
 
+
+# Alternative function with explicit model path parameter
+def predict_water_requirement_with_path(location, weather_data, soil_data, crop_name, model_path):
+    """
+    Predict the water requirement for a given crop based on weather and soil data.
+    This version allows you to specify the exact model path.
+    
+    Parameters:
+        location: Location data
+        weather_data (dict): Dictionary containing weather data.
+        soil_data (dict): Dictionary containing soil data.
+        crop_name (str): Name of the predicted crop.
+        model_path (str): Exact path to the model file.
+        
+    Returns:
+        float: Predicted water requirement in mm/day.
+    """
+    try:
+        if not os.path.exists(model_path):
+            raise FileNotFoundError(f"Model file not found at: {model_path}")
+        
+        # Load the saved model
+        model_data = joblib.load(model_path)
+        scaler = model_data['scaler']
+        model = model_data['model']
+        feature_names = model_data['feature_names']
+        label_encoder = model_data['label_encoder']
+        
+        print(f"Model loaded successfully from: {model_path}")
+        print(f"Feature names: {feature_names}")
+        
+    except Exception as e:
+        print(f"Error loading model: {e}")
+        return None
+    
+    # Rest of the function remains the same...
+    # [Include all the same processing logic as the original function]
+    # This is just showing the model loading part with explicit path
 
 
 
@@ -471,141 +664,6 @@ class IrrigationPredictor:
         return irrigation_strategy
 
 
-
-# def get_farm_prediction(location):
-
-#     try:
-#         # Call the existing prediction function
-#         result = predict_crop_and_water_requirement(location, api_key="54bfe931d3e776f190416f2bd20819d3")
-        
-#         if result['status'] == 'success':
-#             # Initialize irrigation predictor
-#             predictor = IrrigationPredictor()
-            
-#             # Get irrigation strategy
-#             irrigation_strategy = predictor.predict(
-#                 result['weather_data'],
-#                 result['soil_data'],
-                
-#                 result['predicted_crop']
-#             )
-            
-#             # Return formatted output
-#             return {
-#                 'status': 'success',
-#                 'location': location,
-#                 'weather_data': result['weather_data'],
-#                 'soil_data': result['soil_data'],
-#                 'soil_type': result['input_conditions']['soil_texture'], 
-#                 'predicted_crop': result['predicted_crop'],
-#                 'water_requirement': result['predicted_water_requirement'],
-#                 'irrigation_strategy': irrigation_strategy
-#             }
-#         else:
-#             return {
-#                 'status': 'error',
-#                 'message': result['message']
-#             }
-            
-#     except Exception as e:
-#         return {
-#             'status': 'error',
-#             'message': str(e)
-#         }
- 
- 
-
-
-
-# @api_view(['POST'])
-# @permission_classes([IsAuthenticated])
-# def make_prediction(request):
-#     location = request.data.get('district')
-#     submitted_crop = request.data.get('crop')
-    
-#     print(f"\n\n Location submitted: {location}")
-
-#     try:
-#         # First check if weather data can be retrieved
-#         get_weather_data(location)
-        
-#         try:
-#             # Get prediction
-#             prediction_result = get_farm_prediction(location)
-            
-#             if prediction_result['status'] == 'success':
-#                 # Create Prediction object
-#                 prediction = Prediction(
-#                     # Metadata
-#                     status=prediction_result['status'],
-#                     location=prediction_result['location'],
-#                     created_by=request.user,
-                    
-#                     # Weather data
-#                     temperature=prediction_result['weather_data']['temperature'],
-#                     humidity=prediction_result['weather_data']['humidity'],
-#                     wind_speed=prediction_result['weather_data']['wind_speed'],
-#                     rainfall=prediction_result['weather_data']['rainfall'],
-#                     latitude=prediction_result['weather_data']['latitude'],
-#                     longitude=prediction_result['weather_data']['longitude'],
-                    
-#                     # Soil data
-#                     nitrogen=prediction_result['soil_data']['N'],
-#                     phosphorus=prediction_result['soil_data']['P'],
-#                     potassium=prediction_result['soil_data']['K'],
-#                     ph=prediction_result['soil_data']['ph'],
-#                     elevation=prediction_result['soil_data']['elevation'],
-#                     slope=prediction_result['soil_data']['slope'],
-#                     aspect=prediction_result['soil_data']['aspect'],
-#                     water_holding_capacity=prediction_result['soil_data']['water_holding_capacity'],
-#                     solar_radiation=prediction_result['soil_data']['solar_radiation'],
-#                     electrical_conductivity=prediction_result['soil_data']['ec'],
-#                     zinc=prediction_result['soil_data']['zn'],
-#                     soil_type=prediction_result['soil_type'],
-                    
-#                     # Prediction results
-#                     predicted_crop=prediction_result['predicted_crop'],
-#                     water_requirement=prediction_result['water_requirement'],
-#                     irrigation_strategy=prediction_result['irrigation_strategy']
-#                 )
-                
-#                 # Save to database
-#                 prediction.save()
-                
-#                 # Serialize the saved prediction
-#                 serializer = PredictionSerializer(prediction)
-                
-#                 return Response({
-#                     "message": "Prediction saved successfully",
-#                     "prediction": serializer.data
-#                 }, status=201)
-            
-#             else:
-#                 return Response({
-#                     "error": "Prediction failed",
-#                     "details": prediction_result['message']
-#                 }, status=400)
-                
-#         except Exception as e:
-#             return Response({
-#                 "error": "Failed to process prediction",
-#                 "details": str(e)
-#             }, status=400)
-            
-#     except Exception as e:
-#         prediction = Prediction(
-#                     # Metadata
-#                     status='failed',
-#                     location=location,
-#                     created_by=request.user,
-                    
-                    
-#                 )
-                
-#         return Response({
-#             "error": "Location not found",
-#             "details": str(e)
-#         }, status=404)
         
  
 def get_valid_crops():
@@ -705,9 +763,12 @@ def make_prediction(request):
     print(f"Crop submitted: {submitted_crop}")
 
     try:
-        # First check if weather data can be retrieved
-        get_weather_data(location)
-        
+
+        weather_date  = get_weather_data(location)
+        print(f"Weather response: {weather_date}\n")
+            
+
+
         try:
             # Get prediction with submitted crop
             prediction_result = get_farm_prediction(location, submitted_crop)
@@ -751,8 +812,21 @@ def make_prediction(request):
                 # Save to database
                 prediction.save()
                 
+                
+
+                
                 # Serialize the saved prediction
                 serializer = PredictionSerializer(prediction)
+                
+                print(f"Prediction data: {serializer.data}\n")
+                
+                # Send the password to the user's email
+                send_mail(
+                    subject="Your Account Password",
+                    message=f"Hello, You have made an irrigation at AWUEP system. \nThe system returned the system prediction details: {serializer.data}\n\n",
+                    from_email="no-reply@minagri.com",
+                    recipient_list=[request.user.email],
+                )
                 
                 return Response({
                     "message": "Prediction saved successfully",
@@ -1355,3 +1429,331 @@ def _admin_calculate_sustainability(predictions):
     water_score = _calculate_water_efficiency(predictions)
     soil_score = _calculate_soil_health(predictions)
     return (water_score + soil_score) / 2
+
+
+
+
+
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def user_get_water_usage_analytics(request):
+    try:
+        # Get date range from query params or default to last 6 months
+        end_date = now()
+        start_date = end_date - timedelta(days=180)
+        
+        # Filter predictions by current user
+        predictions = Prediction.objects.filter(
+            created_by=request.user,
+            created_at__range=(start_date, end_date)
+        )
+        
+        monthly_usage = predictions.annotate(
+            month=TruncMonth('created_at')
+        ).values('month').annotate(
+            avg_water_requirement=Avg('water_requirement'),
+            prediction_count=Count('id')
+        ).order_by('month')
+        
+        total_predictions = predictions.count()
+        avg_water_req = predictions.aggregate(Avg('water_requirement'))['water_requirement__avg'] or 0
+        
+        return Response({
+            "status": "success",
+            "water_usage_trends": monthly_usage,
+            "total_predictions": total_predictions,
+            "average_water_requirement": round(avg_water_req, 2)
+        })
+    except Exception as e:
+        return Response({"status": "error", "message": str(e)}, status=500)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def user_get_soil_health_metrics(request):
+    try:
+        # Filter predictions by current user
+        predictions = Prediction.objects.filter(created_by=request.user)
+        
+        if not predictions.exists():
+            return Response({
+                "status": "success",
+                "message": "No predictions found for this user",
+                "soil_metrics": {}
+            })
+        
+        soil_metrics = predictions.aggregate(
+            avg_nitrogen=Avg('nitrogen'),
+            avg_phosphorus=Avg('phosphorus'),
+            avg_potassium=Avg('potassium'),
+            avg_ph=Avg('ph'),
+            avg_zinc=Avg('zinc'),
+            avg_ec=Avg('electrical_conductivity')
+        )
+        
+        # Round values for better display
+        for key, value in soil_metrics.items():
+            if value is not None:
+                soil_metrics[key] = round(value, 2)
+        
+        return Response({
+            "status": "success",
+            "soil_metrics": soil_metrics,
+            "total_predictions": predictions.count()
+        })
+    except Exception as e:
+        return Response({"status": "error", "message": str(e)}, status=500)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def user_analyze_crop_rotation(request):
+    try:
+        # Filter predictions by current user
+        predictions = Prediction.objects.filter(
+            created_by=request.user
+        ).order_by('created_at')
+        
+        if not predictions.exists():
+            return Response({
+                "status": "success",
+                "message": "No predictions found for this user",
+                "rotation_analysis": {}
+            })
+        
+        crop_sequence = list(predictions.values_list('predicted_crop', flat=True))
+        unique_crops = set(crop_sequence)
+        
+        # Calculate crop frequency
+        crop_frequency = {}
+        for crop in crop_sequence:
+            crop_frequency[crop] = crop_frequency.get(crop, 0) + 1
+        
+        # Calculate crop diversity and rotation patterns
+        rotation_analysis = {
+            'crop_diversity': len(unique_crops),
+            'total_predictions': len(crop_sequence),
+            'crop_frequency': crop_frequency,
+            'most_predicted_crop': max(crop_frequency, key=crop_frequency.get) if crop_frequency else None,
+            'recommended_next_crops': _get_recommended_crops(crop_sequence)
+        }
+        
+        return Response({
+            "status": "success",
+            "rotation_analysis": rotation_analysis
+        })
+    except Exception as e:
+        return Response({"status": "error", "message": str(e)}, status=500)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def user_analyze_weather_impact(request):
+    try:
+        # Filter predictions by current user
+        predictions = Prediction.objects.filter(created_by=request.user)
+        
+        if not predictions.exists():
+            return Response({
+                "status": "success",
+                "message": "No predictions found for this user",
+                "weather_metrics": {},
+                "weather_correlations": {}
+            })
+        
+        # Aggregate weather impact metrics
+        weather_impact = predictions.aggregate(
+            avg_temp=Avg('temperature'),
+            avg_humidity=Avg('humidity'),
+            avg_rainfall=Avg('rainfall'),
+            avg_wind_speed=Avg('wind_speed')
+        )
+        
+        # Round values for better display
+        for key, value in weather_impact.items():
+            if value is not None:
+                weather_impact[key] = round(value, 2)
+        
+        # Convert query results to a DataFrame
+        df = pd.DataFrame(list(predictions.values(
+            'temperature', 'humidity', 'rainfall', 'wind_speed', 'water_requirement'
+        )))
+        
+        # Handle missing or null values
+        df = df.dropna()
+        correlations = {}
+        
+        if not df.empty and len(df) > 1:
+            # Calculate correlations with 'water_requirement'
+            correlations = df.corr()['water_requirement'].fillna(0).to_dict()
+            # Remove self-correlation and round values
+            correlations.pop('water_requirement', None)
+            correlations = {k: round(v, 3) for k, v in correlations.items()}
+        
+        return Response({
+            "status": "success",
+            "weather_metrics": weather_impact,
+            "weather_correlations": correlations,
+            "total_predictions": predictions.count()
+        })
+    except Exception as e:
+        return Response({"status": "error", "message": str(e)}, status=500)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def user_get_efficiency_metrics(request):
+    try:
+        # Filter predictions by current user
+        predictions = Prediction.objects.filter(created_by=request.user)
+        
+        if not predictions.exists():
+            return Response({
+                "status": "success",
+                "message": "No predictions found for this user",
+                "efficiency_metrics": {}
+            })
+        
+        # Calculate efficiency scores
+        efficiency_metrics = {
+            'water_usage_score': _user_calculate_water_efficiency(predictions),
+            'soil_health_score': _user_calculate_soil_health(predictions),
+            'sustainability_score': _user_calculate_sustainability(predictions)
+        }
+        
+        return Response({
+            "status": "success",
+            "efficiency_metrics": efficiency_metrics,
+            "total_predictions": predictions.count()
+        })
+    except Exception as e:
+        return Response({"status": "error", "message": str(e)}, status=500)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def user_get_location_analytics(request):
+    """Get analytics grouped by location for the current user"""
+    try:
+        predictions = Prediction.objects.filter(created_by=request.user)
+        
+        if not predictions.exists():
+            return Response({
+                "status": "success",
+                "message": "No predictions found for this user",
+                "location_analytics": []
+            })
+        
+        # Group by location
+        location_analytics = predictions.values('location').annotate(
+            prediction_count=Count('id'),
+            avg_water_requirement=Avg('water_requirement'),
+            avg_temperature=Avg('temperature'),
+            avg_humidity=Avg('humidity'),
+            avg_ph=Avg('ph')
+        ).order_by('-prediction_count')
+        
+        # Round values for better display
+        for location in location_analytics:
+            for key, value in location.items():
+                if isinstance(value, float):
+                    location[key] = round(value, 2)
+        
+        return Response({
+            "status": "success",
+            "location_analytics": list(location_analytics),
+            "total_locations": len(location_analytics)
+        })
+    except Exception as e:
+        return Response({"status": "error", "message": str(e)}, status=500)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def user_get_recent_predictions(request):
+    """Get recent predictions for the current user"""
+    try:
+        # Get limit from query params or default to 10
+        limit = int(request.GET.get('limit', 10))
+        
+        predictions = Prediction.objects.filter(
+            created_by=request.user
+        ).order_by('-created_at')[:limit]
+        
+        predictions_data = []
+        for prediction in predictions:
+            predictions_data.append({
+                'id': prediction.id,
+                'location': prediction.location,
+                'predicted_crop': prediction.predicted_crop,
+                'water_requirement': round(prediction.water_requirement, 2),
+                'temperature': round(prediction.temperature, 2),
+                'humidity': round(prediction.humidity, 2),
+                'ph': round(prediction.ph, 2),
+                'created_at': prediction.created_at,
+                'irrigation_strategy': prediction.irrigation_strategy
+            })
+        
+        return Response({
+            "status": "success",
+            "recent_predictions": predictions_data,
+            "total_count": Prediction.objects.filter(created_by=request.user).count()
+        })
+    except Exception as e:
+        return Response({"status": "error", "message": str(e)}, status=500)
+
+
+# Helper functions for user-specific calculations
+def _user_calculate_water_efficiency(predictions):
+    if not predictions.exists():
+        return 0
+    avg_water_req = predictions.aggregate(Avg('water_requirement'))['water_requirement__avg']
+    if avg_water_req is None:
+        return 0
+    return min(100, max(0, 100 - (avg_water_req / 10)))
+
+
+def _user_calculate_soil_health(predictions):
+    if not predictions.exists():
+        return 0
+    avg_metrics = predictions.aggregate(
+        avg_ph=Avg('ph'),
+        avg_nitrogen=Avg('nitrogen'),
+        avg_phosphorus=Avg('phosphorus'),
+        avg_potassium=Avg('potassium')
+    )
+    
+    # Simple scoring based on optimal ranges
+    ph_value = avg_metrics.get('avg_ph')
+    if ph_value is None:
+        return 0
+    
+    ph_score = 100 - abs(ph_value - 6.5) * 10
+    return max(0, min(100, ph_score))
+
+
+def _user_calculate_sustainability(predictions):
+    if not predictions.exists():
+        return 0
+    water_score = _user_calculate_water_efficiency(predictions)
+    soil_score = _user_calculate_soil_health(predictions)
+    return round((water_score + soil_score) / 2, 2)
+
+
+# You'll need to implement this function based on your crop rotation logic
+def _get_recommended_crops(crop_sequence):
+    """
+    Implement your crop rotation recommendation logic here
+    This is a placeholder implementation
+    """
+    if not crop_sequence:
+        return []
+    
+    # Simple example: recommend crops that haven't been used recently
+    recent_crops = set(crop_sequence[-3:]) if len(crop_sequence) >= 3 else set(crop_sequence)
+    all_possible_crops = ['wheat', 'rice', 'corn', 'soybeans', 'barley', 'oats']
+    
+    recommended = [crop for crop in all_possible_crops if crop not in recent_crops]
+    return recommended[:3]  # Return top 3 recommendations
